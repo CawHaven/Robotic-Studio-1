@@ -1,0 +1,23 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/cylinder_spawner.dir/src/cylinder_spawner.cpp.o[0m
+[ 75%] Built target cylinder_detector
+[100%] [32m[1mLinking CXX executable cylinder_spawner[0m
+[100%] Built target cylinder_spawner
+-- Install configuration: ""
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/lib/cylinder_detector_spawner/cylinder_detector
+-- Installing: /home/martin/ros2_ws/install/cylinder_detector_spawner/lib/cylinder_detector_spawner/cylinder_spawner
+-- Set runtime path of "/home/martin/ros2_ws/install/cylinder_detector_spawner/lib/cylinder_detector_spawner/cylinder_spawner" to ""
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/ament_index/resource_index/package_run_dependencies/cylinder_detector_spawner
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/ament_index/resource_index/parent_prefix_path/cylinder_detector_spawner
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/environment/path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/environment/path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/local_setup.bash
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/local_setup.sh
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/local_setup.zsh
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/local_setup.dsv
+-- Installing: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/package.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/ament_index/resource_index/packages/cylinder_detector_spawner
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/cmake/cylinder_detector_spawnerConfig.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/cmake/cylinder_detector_spawnerConfig-version.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/cylinder_detector_spawner/share/cylinder_detector_spawner/package.xml

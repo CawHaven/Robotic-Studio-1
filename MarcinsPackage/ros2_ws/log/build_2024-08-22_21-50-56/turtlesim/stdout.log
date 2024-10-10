@@ -1,0 +1,26 @@
+[  1%] Built target turtlesim__cpp
+[ 11%] Built target turtlesim__rosidl_generator_c
+[ 11%] Built target ament_cmake_python_symlink_turtlesim
+[ 21%] Built target turtlesim__rosidl_typesupport_cpp
+[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp
+[ 41%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target turtlesim__rosidl_typesupport_introspection_c
+[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_c
+[ 71%] Built target turtlesim__rosidl_typesupport_c
+[ 73%] Built target draw_square
+[ 79%] Built target turtlesim_node
+[ 79%] Built target turtlesim
+[ 81%] Built target mimic
+[ 83%] Built target turtle_teleop_key
+[ 84%] Built target turtlesim__py
+[ 93%] Built target turtlesim__rosidl_generator_py
+[ 95%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target turtlesim__rosidl_typesupport_c__pyext
+[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing turtlesim.egg-info/PKG-INFO
+writing dependency_links to turtlesim.egg-info/dependency_links.txt
+writing top-level names to turtlesim.egg-info/top_level.txt
+reading manifest file 'turtlesim.egg-info/SOURCES.txt'
+writing manifest file 'turtlesim.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_turtlesim_egg

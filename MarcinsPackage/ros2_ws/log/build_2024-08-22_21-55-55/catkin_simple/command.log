@@ -1,0 +1,1 @@
+Invoking command in '/home/martin/ros2_ws/build/catkin_simple': /usr/bin/cmake /home/martin/ros2_ws/src/catkin_simple -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/catkin_simple

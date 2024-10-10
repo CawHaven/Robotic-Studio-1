@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/simple_localizer.dir/src/simplelocalizer.cpp.o[0m
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/msg/laser_scan.hpp: No such file or directory
+    1 | #include [01;31m[K<sensor_msgs/msg/laser_scan.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/simple_localizer.dir/build.make:76: CMakeFiles/simple_localizer.dir/src/simplelocalizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simple_localizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

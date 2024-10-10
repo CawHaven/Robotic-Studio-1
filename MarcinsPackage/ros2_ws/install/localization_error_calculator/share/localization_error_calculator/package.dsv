@@ -1,0 +1,8 @@
+source;share/localization_error_calculator/hook/cmake_prefix_path.ps1
+source;share/localization_error_calculator/hook/cmake_prefix_path.dsv
+source;share/localization_error_calculator/hook/cmake_prefix_path.sh
+source;share/localization_error_calculator/local_setup.bash
+source;share/localization_error_calculator/local_setup.dsv
+source;share/localization_error_calculator/local_setup.ps1
+source;share/localization_error_calculator/local_setup.sh
+source;share/localization_error_calculator/local_setup.zsh

@@ -1,0 +1,8 @@
+source;share/SimpleLocalizer/hook/cmake_prefix_path.ps1
+source;share/SimpleLocalizer/hook/cmake_prefix_path.dsv
+source;share/SimpleLocalizer/hook/cmake_prefix_path.sh
+source;share/SimpleLocalizer/local_setup.bash
+source;share/SimpleLocalizer/local_setup.dsv
+source;share/SimpleLocalizer/local_setup.ps1
+source;share/SimpleLocalizer/local_setup.sh
+source;share/SimpleLocalizer/local_setup.zsh

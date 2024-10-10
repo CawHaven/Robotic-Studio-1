@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000167] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000190] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000210] (-) JobUnselected: {'identifier': 'localization_error_calculator'}
+[0.000229] (-) JobUnselected: {'identifier': 'scan_sub_pub'}
+[0.000247] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000265] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000283] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000301] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000332] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000350] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000406] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000425] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000442] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000459] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000476] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000492] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000509] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000529] (SimpleLocalizer) JobQueued: {'identifier': 'SimpleLocalizer', 'dependencies': OrderedDict()}
+[0.000552] (SimpleLocalizer) JobStarted: {'identifier': 'SimpleLocalizer'}
+[0.010005] (SimpleLocalizer) JobProgress: {'identifier': 'SimpleLocalizer', 'progress': 'cmake'}
+[0.011230] (SimpleLocalizer) JobProgress: {'identifier': 'SimpleLocalizer', 'progress': 'build'}
+[0.011324] (SimpleLocalizer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/martin/ros2_ws/build/SimpleLocalizer', '--', '-j8', '-l8'], 'cwd': '/home/martin/ros2_ws/build/SimpleLocalizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'martin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_ws/install/turtlesim/lib:/home/martin/ros2_ws/install/turtlebot3_msgs/lib:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/martin/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/martin'), ('OLDPWD', '/home/martin'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1131'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'martin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/martin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/martin-Dell:@/tmp/.ICE-unix/1084,unix/martin-Dell:/tmp/.ICE-unix/1084'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f369f577_b9e1_4cbc_89af_13ce35df3633'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ST52T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/martin/ros2_ws/build/SimpleLocalizer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/build/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/martin/ros2_ws/build/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer')]), 'shell': False}
+[0.050374] (SimpleLocalizer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simplelocalizer\x1b[0m\n'}
+[0.065956] (SimpleLocalizer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o\x1b[0m\n'}
+[0.099202] (-) TimerEvent: {}
+[0.199442] (-) TimerEvent: {}
+[0.299733] (-) TimerEvent: {}
+[0.400017] (-) TimerEvent: {}
+[0.500328] (-) TimerEvent: {}
+[0.600624] (-) TimerEvent: {}
+[0.700914] (-) TimerEvent: {}
+[0.801201] (-) TimerEvent: {}
+[0.901448] (-) TimerEvent: {}
+[1.001738] (-) TimerEvent: {}
+[1.102019] (-) TimerEvent: {}
+[1.202305] (-) TimerEvent: {}
+[1.302606] (-) TimerEvent: {}
+[1.402898] (-) TimerEvent: {}
+[1.503187] (-) TimerEvent: {}
+[1.603480] (-) TimerEvent: {}
+[1.703771] (-) TimerEvent: {}
+[1.804059] (-) TimerEvent: {}
+[1.904347] (-) TimerEvent: {}
+[2.004640] (-) TimerEvent: {}
+[2.104930] (-) TimerEvent: {}
+[2.205219] (-) TimerEvent: {}
+[2.305518] (-) TimerEvent: {}
+[2.405801] (-) TimerEvent: {}
+[2.506085] (-) TimerEvent: {}
+[2.606375] (-) TimerEvent: {}
+[2.706671] (-) TimerEvent: {}
+[2.806961] (-) TimerEvent: {}
+[2.907260] (-) TimerEvent: {}
+[3.007520] (-) TimerEvent: {}
+[3.107799] (-) TimerEvent: {}
+[3.208082] (-) TimerEvent: {}
+[3.308328] (-) TimerEvent: {}
+[3.403827] (SimpleLocalizer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SimpleLocalizer::propagate_robot_pose(geometry_msgs::msg::Pose&, const Odometry&, double)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.404042] (SimpleLocalizer) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:291:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::_position_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99})\n'}
+[3.404165] (SimpleLocalizer) StderrLine: {'line': b'  291 |         pose.position = \x1b[01;31m\x1b[Kground_truth_pose_\x1b[m\x1b[K; //* cos(match_score);\n'}
+[3.404275] (SimpleLocalizer) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.404390] (SimpleLocalizer) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.404501] (SimpleLocalizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20\x1b[m\x1b[K,\n'}
+[3.404601] (SimpleLocalizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:22\x1b[m\x1b[K,\n'}
+[3.404699] (SimpleLocalizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7\x1b[m\x1b[K,\n'}
+[3.404797] (SimpleLocalizer) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:3\x1b[m\x1b[K:\n'}
+[3.404903] (SimpleLocalizer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(const geometry_msgs::msg::Point_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.405006] (SimpleLocalizer) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KPoint_\x1b[m\x1b[K\n'}
+[3.405104] (SimpleLocalizer) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.405200] (SimpleLocalizer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Point_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.405303] (SimpleLocalizer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(geometry_msgs::msg::Point_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.405424] (SimpleLocalizer) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.408442] (-) TimerEvent: {}
+[3.508720] (-) TimerEvent: {}
+[3.608998] (-) TimerEvent: {}
+[3.709280] (-) TimerEvent: {}
+[3.809522] (-) TimerEvent: {}
+[3.909798] (-) TimerEvent: {}
+[4.010028] (-) TimerEvent: {}
+[4.110302] (-) TimerEvent: {}
+[4.210594] (-) TimerEvent: {}
+[4.310886] (-) TimerEvent: {}
+[4.411159] (-) TimerEvent: {}
+[4.511441] (-) TimerEvent: {}
+[4.611687] (-) TimerEvent: {}
+[4.711969] (-) TimerEvent: {}
+[4.812251] (-) TimerEvent: {}
+[4.912560] (-) TimerEvent: {}
+[5.012846] (-) TimerEvent: {}
+[5.113129] (-) TimerEvent: {}
+[5.213403] (-) TimerEvent: {}
+[5.313683] (-) TimerEvent: {}
+[5.413962] (-) TimerEvent: {}
+[5.514244] (-) TimerEvent: {}
+[5.614534] (-) TimerEvent: {}
+[5.714821] (-) TimerEvent: {}
+[5.815103] (-) TimerEvent: {}
+[5.915394] (-) TimerEvent: {}
+[6.015684] (-) TimerEvent: {}
+[6.115970] (-) TimerEvent: {}
+[6.216257] (-) TimerEvent: {}
+[6.316515] (-) TimerEvent: {}
+[6.416805] (-) TimerEvent: {}
+[6.517088] (-) TimerEvent: {}
+[6.617390] (-) TimerEvent: {}
+[6.717670] (-) TimerEvent: {}
+[6.817954] (-) TimerEvent: {}
+[6.918240] (-) TimerEvent: {}
+[7.018532] (-) TimerEvent: {}
+[7.118811] (-) TimerEvent: {}
+[7.219099] (-) TimerEvent: {}
+[7.319398] (-) TimerEvent: {}
+[7.419684] (-) TimerEvent: {}
+[7.519970] (-) TimerEvent: {}
+[7.620258] (-) TimerEvent: {}
+[7.720561] (-) TimerEvent: {}
+[7.820838] (-) TimerEvent: {}
+[7.921111] (-) TimerEvent: {}
+[8.021405] (-) TimerEvent: {}
+[8.121699] (-) TimerEvent: {}
+[8.221990] (-) TimerEvent: {}
+[8.322279] (-) TimerEvent: {}
+[8.422577] (-) TimerEvent: {}
+[8.522862] (-) TimerEvent: {}
+[8.623150] (-) TimerEvent: {}
+[8.723436] (-) TimerEvent: {}
+[8.814226] (SimpleLocalizer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1\n'}
+[8.814422] (SimpleLocalizer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2\n'}
+[8.814604] (SimpleLocalizer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.816357] (SimpleLocalizer) CommandEnded: {'returncode': 2}
+[8.823521] (-) TimerEvent: {}
+[8.845994] (SimpleLocalizer) JobEnded: {'identifier': 'SimpleLocalizer', 'rc': 2}
+[8.856599] (-) EventReactorShutdown: {}

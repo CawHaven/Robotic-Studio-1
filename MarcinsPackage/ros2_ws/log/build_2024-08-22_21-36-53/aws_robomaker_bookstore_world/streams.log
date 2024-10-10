@@ -1,0 +1,41 @@
+[0.031s] Invoking command in '/home/martin/ros2_ws/build/aws_robomaker_bookstore_world': /usr/bin/cmake /home/martin/ros2_ws/src/aws-robomaker-bookstore-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/aws_robomaker_bookstore_world
+[0.057s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.057s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.058s]   CMake.
+[0.058s] 
+[0.058s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.058s]   CMake that the project does not need compatibility with older versions.
+[0.058s] 
+[0.058s] [0m
+[0.115s] -- The C compiler identification is GNU 11.4.0
+[0.237s] -- The CXX compiler identification is GNU 11.4.0
+[0.265s] -- Detecting C compiler ABI info
+[0.414s] -- Detecting C compiler ABI info - done
+[0.438s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.439s] -- Detecting C compile features
+[0.440s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.605s] -- Detecting CXX compiler ABI info - done
+[0.620s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.622s] -- Detecting CXX compile features
+[0.624s] -- Detecting CXX compile features - done
+[0.643s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.644s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.644s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.644s]   CMake did not find one.
+[0.644s] 
+[0.644s]   Could not find a package configuration file provided by "catkin" with any
+[0.644s]   of the following names:
+[0.644s] 
+[0.644s]     catkinConfig.cmake
+[0.645s]     catkin-config.cmake
+[0.645s] 
+[0.645s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.645s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.645s]   provides a separate development package or SDK, be sure it has been
+[0.645s]   installed.
+[0.645s] 
+[0.645s] [0m
+[0.645s] -- Configuring incomplete, errors occurred!
+[0.646s] See also "/home/martin/ros2_ws/build/aws_robomaker_bookstore_world/CMakeFiles/CMakeOutput.log".
+[0.650s] Invoked command in '/home/martin/ros2_ws/build/aws_robomaker_bookstore_world' returned '1': /usr/bin/cmake /home/martin/ros2_ws/src/aws-robomaker-bookstore-world -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/aws_robomaker_bookstore_world

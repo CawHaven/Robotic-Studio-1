@@ -1,0 +1,209 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000156] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000173] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000201] (-) JobUnselected: {'identifier': 'localization_error_calculator'}
+[0.000213] (-) JobUnselected: {'identifier': 'scan_sub_pub'}
+[0.000225] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000237] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000249] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000261] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000273] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000285] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000297] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000308] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000320] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000332] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000343] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000355] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000367] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000380] (SimpleLocalizer) JobQueued: {'identifier': 'SimpleLocalizer', 'dependencies': OrderedDict()}
+[0.000396] (SimpleLocalizer) JobStarted: {'identifier': 'SimpleLocalizer'}
+[0.007711] (SimpleLocalizer) JobProgress: {'identifier': 'SimpleLocalizer', 'progress': 'cmake'}
+[0.008056] (SimpleLocalizer) JobProgress: {'identifier': 'SimpleLocalizer', 'progress': 'build'}
+[0.008568] (SimpleLocalizer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/martin/ros2_ws/build/SimpleLocalizer', '--', '-j8', '-l8'], 'cwd': '/home/martin/ros2_ws/build/SimpleLocalizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'martin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_ws/install/turtlesim/lib:/home/martin/ros2_ws/install/turtlebot3_msgs/lib:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/martin/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/martin'), ('OLDPWD', '/home/martin'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1131'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'martin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/martin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/martin-Dell:@/tmp/.ICE-unix/1084,unix/martin-Dell:/tmp/.ICE-unix/1084'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f369f577_b9e1_4cbc_89af_13ce35df3633'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ST52T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/martin/ros2_ws/build/SimpleLocalizer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/build/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/martin/ros2_ws/build/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer')]), 'shell': False}
+[0.045250] (SimpleLocalizer) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target simplelocalizer\x1b[0m\n'}
+[0.058893] (SimpleLocalizer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o\x1b[0m\n'}
+[0.099450] (-) TimerEvent: {}
+[0.199711] (-) TimerEvent: {}
+[0.299980] (-) TimerEvent: {}
+[0.400206] (-) TimerEvent: {}
+[0.500463] (-) TimerEvent: {}
+[0.600721] (-) TimerEvent: {}
+[0.700994] (-) TimerEvent: {}
+[0.801259] (-) TimerEvent: {}
+[0.901497] (-) TimerEvent: {}
+[1.001760] (-) TimerEvent: {}
+[1.102035] (-) TimerEvent: {}
+[1.202304] (-) TimerEvent: {}
+[1.302572] (-) TimerEvent: {}
+[1.402857] (-) TimerEvent: {}
+[1.503094] (-) TimerEvent: {}
+[1.603362] (-) TimerEvent: {}
+[1.703630] (-) TimerEvent: {}
+[1.803901] (-) TimerEvent: {}
+[1.904160] (-) TimerEvent: {}
+[2.004395] (-) TimerEvent: {}
+[2.104675] (-) TimerEvent: {}
+[2.204942] (-) TimerEvent: {}
+[2.305212] (-) TimerEvent: {}
+[2.405494] (-) TimerEvent: {}
+[2.505760] (-) TimerEvent: {}
+[2.606008] (-) TimerEvent: {}
+[2.706257] (-) TimerEvent: {}
+[2.806513] (-) TimerEvent: {}
+[2.906770] (-) TimerEvent: {}
+[3.007005] (-) TimerEvent: {}
+[3.107265] (-) TimerEvent: {}
+[3.207535] (-) TimerEvent: {}
+[3.307792] (-) TimerEvent: {}
+[3.408022] (-) TimerEvent: {}
+[3.508282] (-) TimerEvent: {}
+[3.608549] (-) TimerEvent: {}
+[3.708815] (-) TimerEvent: {}
+[3.809093] (-) TimerEvent: {}
+[3.909350] (-) TimerEvent: {}
+[4.009625] (-) TimerEvent: {}
+[4.109894] (-) TimerEvent: {}
+[4.210151] (-) TimerEvent: {}
+[4.310412] (-) TimerEvent: {}
+[4.410681] (-) TimerEvent: {}
+[4.510950] (-) TimerEvent: {}
+[4.611213] (-) TimerEvent: {}
+[4.711477] (-) TimerEvent: {}
+[4.811742] (-) TimerEvent: {}
+[4.911985] (-) TimerEvent: {}
+[5.012248] (-) TimerEvent: {}
+[5.112518] (-) TimerEvent: {}
+[5.212781] (-) TimerEvent: {}
+[5.313054] (-) TimerEvent: {}
+[5.413319] (-) TimerEvent: {}
+[5.513581] (-) TimerEvent: {}
+[5.613867] (-) TimerEvent: {}
+[5.714136] (-) TimerEvent: {}
+[5.814409] (-) TimerEvent: {}
+[5.914674] (-) TimerEvent: {}
+[6.014931] (-) TimerEvent: {}
+[6.115196] (-) TimerEvent: {}
+[6.215460] (-) TimerEvent: {}
+[6.315730] (-) TimerEvent: {}
+[6.415969] (-) TimerEvent: {}
+[6.516231] (-) TimerEvent: {}
+[6.616494] (-) TimerEvent: {}
+[6.716756] (-) TimerEvent: {}
+[6.817038] (-) TimerEvent: {}
+[6.917318] (-) TimerEvent: {}
+[7.017592] (-) TimerEvent: {}
+[7.117867] (-) TimerEvent: {}
+[7.218128] (-) TimerEvent: {}
+[7.318394] (-) TimerEvent: {}
+[7.418664] (-) TimerEvent: {}
+[7.518930] (-) TimerEvent: {}
+[7.619180] (-) TimerEvent: {}
+[7.719446] (-) TimerEvent: {}
+[7.819698] (-) TimerEvent: {}
+[7.919916] (-) TimerEvent: {}
+[8.020189] (-) TimerEvent: {}
+[8.120466] (-) TimerEvent: {}
+[8.220748] (-) TimerEvent: {}
+[8.320983] (-) TimerEvent: {}
+[8.421236] (-) TimerEvent: {}
+[8.521498] (-) TimerEvent: {}
+[8.621741] (-) TimerEvent: {}
+[8.722012] (-) TimerEvent: {}
+[8.822284] (-) TimerEvent: {}
+[8.922543] (-) TimerEvent: {}
+[9.022809] (-) TimerEvent: {}
+[9.123086] (-) TimerEvent: {}
+[9.223349] (-) TimerEvent: {}
+[9.323574] (-) TimerEvent: {}
+[9.423824] (-) TimerEvent: {}
+[9.524056] (-) TimerEvent: {}
+[9.624308] (-) TimerEvent: {}
+[9.724545] (-) TimerEvent: {}
+[9.824799] (-) TimerEvent: {}
+[9.925028] (-) TimerEvent: {}
+[10.025295] (-) TimerEvent: {}
+[10.125552] (-) TimerEvent: {}
+[10.225808] (-) TimerEvent: {}
+[10.326048] (-) TimerEvent: {}
+[10.426305] (-) TimerEvent: {}
+[10.526567] (-) TimerEvent: {}
+[10.626835] (-) TimerEvent: {}
+[10.727061] (-) TimerEvent: {}
+[10.827319] (-) TimerEvent: {}
+[10.927578] (-) TimerEvent: {}
+[11.027841] (-) TimerEvent: {}
+[11.128076] (-) TimerEvent: {}
+[11.228316] (-) TimerEvent: {}
+[11.328617] (-) TimerEvent: {}
+[11.428879] (-) TimerEvent: {}
+[11.529129] (-) TimerEvent: {}
+[11.629381] (-) TimerEvent: {}
+[11.729639] (-) TimerEvent: {}
+[11.829899] (-) TimerEvent: {}
+[11.930148] (-) TimerEvent: {}
+[12.030407] (-) TimerEvent: {}
+[12.130658] (-) TimerEvent: {}
+[12.230934] (-) TimerEvent: {}
+[12.331192] (-) TimerEvent: {}
+[12.431446] (-) TimerEvent: {}
+[12.531704] (-) TimerEvent: {}
+[12.631977] (-) TimerEvent: {}
+[12.732235] (-) TimerEvent: {}
+[12.832494] (-) TimerEvent: {}
+[12.932759] (-) TimerEvent: {}
+[13.033029] (-) TimerEvent: {}
+[13.133292] (-) TimerEvent: {}
+[13.233587] (-) TimerEvent: {}
+[13.333880] (-) TimerEvent: {}
+[13.434126] (-) TimerEvent: {}
+[13.534384] (-) TimerEvent: {}
+[13.634646] (-) TimerEvent: {}
+[13.734911] (-) TimerEvent: {}
+[13.835170] (-) TimerEvent: {}
+[13.935432] (-) TimerEvent: {}
+[14.035662] (-) TimerEvent: {}
+[14.135921] (-) TimerEvent: {}
+[14.236186] (-) TimerEvent: {}
+[14.336454] (-) TimerEvent: {}
+[14.436725] (-) TimerEvent: {}
+[14.536933] (-) TimerEvent: {}
+[14.637198] (-) TimerEvent: {}
+[14.692433] (SimpleLocalizer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable simplelocalizer\x1b[0m\n'}
+[14.737293] (-) TimerEvent: {}
+[14.837591] (-) TimerEvent: {}
+[14.937964] (-) TimerEvent: {}
+[15.038255] (-) TimerEvent: {}
+[15.138536] (-) TimerEvent: {}
+[15.238807] (-) TimerEvent: {}
+[15.339108] (-) TimerEvent: {}
+[15.439372] (-) TimerEvent: {}
+[15.539661] (-) TimerEvent: {}
+[15.639950] (-) TimerEvent: {}
+[15.676712] (SimpleLocalizer) StdoutLine: {'line': b'[100%] Built target simplelocalizer\n'}
+[15.685644] (SimpleLocalizer) CommandEnded: {'returncode': 0}
+[15.704632] (SimpleLocalizer) JobProgress: {'identifier': 'SimpleLocalizer', 'progress': 'install'}
+[15.711864] (SimpleLocalizer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/martin/ros2_ws/build/SimpleLocalizer'], 'cwd': '/home/martin/ros2_ws/build/SimpleLocalizer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'martin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_ws/install/turtlesim/lib:/home/martin/ros2_ws/install/turtlebot3_msgs/lib:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/martin/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/martin'), ('OLDPWD', '/home/martin'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1131'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'martin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/martin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/martin-Dell:@/tmp/.ICE-unix/1084,unix/martin-Dell:/tmp/.ICE-unix/1084'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f369f577_b9e1_4cbc_89af_13ce35df3633'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.ST52T2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.112'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/martin/ros2_ws/build/SimpleLocalizer'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/build/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/martin/ros2_ws/build/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer')]), 'shell': False}
+[15.717880] (SimpleLocalizer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.718081] (SimpleLocalizer) StdoutLine: {'line': b'-- Installing: /home/martin/ros2_ws/install/SimpleLocalizer/lib/SimpleLocalizer/simplelocalizer\n'}
+[15.722728] (SimpleLocalizer) StdoutLine: {'line': b'-- Set runtime path of "/home/martin/ros2_ws/install/SimpleLocalizer/lib/SimpleLocalizer/simplelocalizer" to ""\n'}
+[15.722981] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/ament_index/resource_index/package_run_dependencies/SimpleLocalizer\n'}
+[15.723071] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/ament_index/resource_index/parent_prefix_path/SimpleLocalizer\n'}
+[15.723201] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/environment/ament_prefix_path.sh\n'}
+[15.723262] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/environment/ament_prefix_path.dsv\n'}
+[15.723313] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/environment/path.sh\n'}
+[15.723364] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/environment/path.dsv\n'}
+[15.723413] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/local_setup.bash\n'}
+[15.723463] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/local_setup.sh\n'}
+[15.723511] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/local_setup.zsh\n'}
+[15.723560] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/local_setup.dsv\n'}
+[15.723610] (SimpleLocalizer) StdoutLine: {'line': b'-- Installing: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/package.dsv\n'}
+[15.723659] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/ament_index/resource_index/packages/SimpleLocalizer\n'}
+[15.723708] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/cmake/SimpleLocalizerConfig.cmake\n'}
+[15.723757] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/cmake/SimpleLocalizerConfig-version.cmake\n'}
+[15.723805] (SimpleLocalizer) StdoutLine: {'line': b'-- Up-to-date: /home/martin/ros2_ws/install/SimpleLocalizer/share/SimpleLocalizer/package.xml\n'}
+[15.724491] (SimpleLocalizer) CommandEnded: {'returncode': 0}
+[15.740044] (-) TimerEvent: {}
+[15.756130] (SimpleLocalizer) JobEnded: {'identifier': 'SimpleLocalizer', 'rc': 0}
+[15.756631] (-) EventReactorShutdown: {}

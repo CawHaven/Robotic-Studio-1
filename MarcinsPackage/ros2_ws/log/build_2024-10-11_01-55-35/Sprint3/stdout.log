@@ -1,0 +1,22 @@
+[100%] Built target map_overlay
+[100%] Built target cylinder_detector
+-- Install configuration: ""
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/lib/Sprint3/cylinder_detector
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/lib/Sprint3/map_overlay
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/launch
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/launch/map_launch.py
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/ament_index/resource_index/package_run_dependencies/Sprint3
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/ament_index/resource_index/parent_prefix_path/Sprint3
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/environment/ament_prefix_path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/environment/path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/environment/path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/local_setup.bash
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/local_setup.sh
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/local_setup.zsh
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/local_setup.dsv
+-- Installing: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/package.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/ament_index/resource_index/packages/Sprint3
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/cmake/Sprint3Config.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/cmake/Sprint3Config-version.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/share/Sprint3/package.xml

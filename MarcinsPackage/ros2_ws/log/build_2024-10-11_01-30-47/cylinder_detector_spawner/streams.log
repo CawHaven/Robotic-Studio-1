@@ -1,0 +1,39 @@
+[0.012s] Invoking command in '/home/martin/ros2_ws/build/cylinder_detector_spawner': CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/cylinder_detector_spawner:/home/martin/ros2_ws/install/SimpleLocalizer:/home/martin/install/turtlebot3_navigation2:/home/martin/install/turtlebot3_description:/home/martin/install/turtlebot3_cartographer:/home/martin/install/robotics_studio_1:/home/martin/install/localization_error_calculator:/home/martin/install/SimpleLocalizer /usr/bin/cmake --build /home/martin/ros2_ws/build/cylinder_detector_spawner -- -j8 -l8
+[0.032s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.167s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.169s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.173s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.194s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.223s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.224s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.317s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.363s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.389s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.408s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.484s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[0.486s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.488s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.489s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[0.598s] -- Configuring done
+[0.616s] -- Generating done
+[0.617s] -- Build files have been written to: /home/martin/ros2_ws/build/cylinder_detector_spawner
+[0.640s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detector[0m
+[0.648s] [ 25%] [32mBuilding CXX object CMakeFiles/map_overlay.dir/src/map_overlay.cpp.o[0m
+[0.655s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o[0m
+[0.852s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/srv/spawn_entity.hpp: No such file or directory
+[0.852s]     8 | #include [01;31m[K<gazebo_msgs/srv/spawn_entity.hpp>[m[K
+[0.852s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.852s] compilation terminated.
+[0.855s] gmake[2]: *** [CMakeFiles/cylinder_detector.dir/build.make:76: CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o] Error 1
+[0.855s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/cylinder_detector.dir/all] Error 2
+[0.855s] gmake[1]: *** Waiting for unfinished jobs....
+[0.856s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/map_overlay.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory
+[0.857s]     7 | #include [01;31m[K<nav_msgs/msg/occupancy_grid.hpp>[m[K
+[0.857s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.857s] compilation terminated.
+[0.859s] gmake[2]: *** [CMakeFiles/map_overlay.dir/build.make:76: CMakeFiles/map_overlay.dir/src/map_overlay.cpp.o] Error 1
+[0.859s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/map_overlay.dir/all] Error 2
+[0.860s] gmake: *** [Makefile:146: all] Error 2
+[0.862s] Invoked command in '/home/martin/ros2_ws/build/cylinder_detector_spawner' returned '2': CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/cylinder_detector_spawner:/home/martin/ros2_ws/install/SimpleLocalizer:/home/martin/install/turtlebot3_navigation2:/home/martin/install/turtlebot3_description:/home/martin/install/turtlebot3_cartographer:/home/martin/install/robotics_studio_1:/home/martin/install/localization_error_calculator:/home/martin/install/SimpleLocalizer /usr/bin/cmake --build /home/martin/ros2_ws/build/cylinder_detector_spawner -- -j8 -l8

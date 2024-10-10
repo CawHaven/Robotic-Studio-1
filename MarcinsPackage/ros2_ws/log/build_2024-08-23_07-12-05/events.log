@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000314] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000343] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000377] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000390] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000404] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000417] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000430] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000456] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000468] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000479] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000491] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000503] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000515] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000527] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000539] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000553] (scan_sub_pub) JobQueued: {'identifier': 'scan_sub_pub', 'dependencies': OrderedDict()}
+[0.000568] (scan_sub_pub) JobStarted: {'identifier': 'scan_sub_pub'}
+[0.007630] (scan_sub_pub) JobProgress: {'identifier': 'scan_sub_pub', 'progress': 'cmake'}
+[0.008692] (scan_sub_pub) JobProgress: {'identifier': 'scan_sub_pub', 'progress': 'build'}
+[0.009014] (scan_sub_pub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/martin/ros2_ws/build/scan_sub_pub', '--', '-j8', '-l8'], 'cwd': '/home/martin/ros2_ws/build/scan_sub_pub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'martin'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_ws/install/turtlesim/lib:/home/martin/ros2_ws/install/turtlebot3_msgs/lib:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/martin/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/martin'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1096'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf66eb8b9f5e3c1f9a9a336866c7a2d0'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'martin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/martin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/martin-Dell:@/tmp/.ICE-unix/1096,unix/martin-Dell:/tmp/.ICE-unix/1096'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be6e7b39_404c_44f1_9d31_61dfd37d7ef0'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.8A4SS2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.193'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/martin/ros2_ws/build/scan_sub_pub'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=cf66eb8b9f5e3c1f9a9a336866c7a2d0'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/build/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/martin/ros2_ws/build/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.043714] (scan_sub_pub) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scan_sub_pub_node\x1b[0m\n'}
+[0.056225] (scan_sub_pub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o\x1b[0m\n'}
+[0.099381] (-) TimerEvent: {}
+[0.199634] (-) TimerEvent: {}
+[0.299900] (-) TimerEvent: {}
+[0.400191] (-) TimerEvent: {}
+[0.500462] (-) TimerEvent: {}
+[0.600732] (-) TimerEvent: {}
+[0.701001] (-) TimerEvent: {}
+[0.801234] (-) TimerEvent: {}
+[0.901496] (-) TimerEvent: {}
+[1.001774] (-) TimerEvent: {}
+[1.102035] (-) TimerEvent: {}
+[1.202264] (-) TimerEvent: {}
+[1.302538] (-) TimerEvent: {}
+[1.402806] (-) TimerEvent: {}
+[1.503083] (-) TimerEvent: {}
+[1.603326] (-) TimerEvent: {}
+[1.703610] (-) TimerEvent: {}
+[1.803898] (-) TimerEvent: {}
+[1.904192] (-) TimerEvent: {}
+[2.004474] (-) TimerEvent: {}
+[2.104744] (-) TimerEvent: {}
+[2.149520] (scan_sub_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_ws/src/scan_sub_pub/src/scanSubPub.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid System::publishCallback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.149664] (scan_sub_pub) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_ws/src/scan_sub_pub/src/scanSubPub.cpp:25:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Time\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.149723] (scan_sub_pub) StderrLine: {'line': b'   25 |                 message->header.stamp = rclcpp::Time::\x1b[01;31m\x1b[Know\x1b[m\x1b[K();\n'}
+[2.149771] (scan_sub_pub) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[2.204870] (-) TimerEvent: {}
+[2.305164] (-) TimerEvent: {}
+[2.405436] (-) TimerEvent: {}
+[2.505772] (-) TimerEvent: {}
+[2.606047] (-) TimerEvent: {}
+[2.706341] (-) TimerEvent: {}
+[2.806609] (-) TimerEvent: {}
+[2.906895] (-) TimerEvent: {}
+[3.007217] (-) TimerEvent: {}
+[3.107503] (-) TimerEvent: {}
+[3.207777] (-) TimerEvent: {}
+[3.308050] (-) TimerEvent: {}
+[3.408353] (-) TimerEvent: {}
+[3.508630] (-) TimerEvent: {}
+[3.608921] (-) TimerEvent: {}
+[3.709248] (-) TimerEvent: {}
+[3.809582] (-) TimerEvent: {}
+[3.909942] (-) TimerEvent: {}
+[4.010233] (-) TimerEvent: {}
+[4.110503] (-) TimerEvent: {}
+[4.210772] (-) TimerEvent: {}
+[4.311043] (-) TimerEvent: {}
+[4.411326] (-) TimerEvent: {}
+[4.451378] (scan_sub_pub) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/scan_sub_pub_node.dir/build.make:76: CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o] Error 1\n'}
+[4.451646] (scan_sub_pub) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scan_sub_pub_node.dir/all] Error 2\n'}
+[4.451857] (scan_sub_pub) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.453556] (scan_sub_pub) CommandEnded: {'returncode': 2}
+[4.481245] (scan_sub_pub) JobEnded: {'identifier': 'scan_sub_pub', 'rc': 2}
+[4.491599] (-) EventReactorShutdown: {}

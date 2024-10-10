@@ -1,0 +1,29 @@
+[0.687s] Invoking command in '/home/martin/ros2_ws/build/turtlebot3_example': AMENT_PREFIX_PATH=/home/martin/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/martin/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/martin/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/martin/ros2_ws/build/turtlebot3_example/build --no-deps symlink_data
+[0.988s] running develop
+[0.989s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.989s]   warnings.warn(
+[1.166s] running egg_info
+[1.166s] creating turtlebot3_example.egg-info
+[1.166s] writing turtlebot3_example.egg-info/PKG-INFO
+[1.166s] writing dependency_links to turtlebot3_example.egg-info/dependency_links.txt
+[1.166s] writing entry points to turtlebot3_example.egg-info/entry_points.txt
+[1.166s] writing requirements to turtlebot3_example.egg-info/requires.txt
+[1.167s] writing top-level names to turtlebot3_example.egg-info/top_level.txt
+[1.167s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.169s] reading manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.169s] writing manifest file 'turtlebot3_example.egg-info/SOURCES.txt'
+[1.171s] running build_ext
+[1.171s] Creating /home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages/turtlebot3-example.egg-link (link to .)
+[1.172s] Installing turtlebot3_obstacle_detection script to /home/martin/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.172s] Installing turtlebot3_patrol_client script to /home/martin/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.172s] Installing turtlebot3_patrol_server script to /home/martin/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.172s] Installing turtlebot3_position_control script to /home/martin/ros2_ws/install/turtlebot3_example/lib/turtlebot3_example
+[1.173s] 
+[1.173s] Installed /home/martin/ros2_ws/build/turtlebot3_example
+[1.173s] running symlink_data
+[1.173s] creating /home/martin/ros2_ws/install/turtlebot3_example/share/ament_index
+[1.173s] creating /home/martin/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index
+[1.173s] creating /home/martin/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.173s] symbolically linking /home/martin/ros2_ws/build/turtlebot3_example/resource/turtlebot3_example -> /home/martin/ros2_ws/install/turtlebot3_example/share/ament_index/resource_index/packages
+[1.174s] symbolically linking /home/martin/ros2_ws/build/turtlebot3_example/package.xml -> /home/martin/ros2_ws/install/turtlebot3_example/share/turtlebot3_example
+[1.203s] Invoked command in '/home/martin/ros2_ws/build/turtlebot3_example' returned '0': AMENT_PREFIX_PATH=/home/martin/ros2_ws/install/turtlebot3_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlebot3_msgs LD_LIBRARY_PATH=/home/martin/ros2_ws/install/turtlebot3_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/martin/ros2_ws/build/turtlebot3_example/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/martin/ros2_ws/build/turtlebot3_example/build --no-deps symlink_data

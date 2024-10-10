@@ -1,0 +1,4 @@
+Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake --build /home/martin/ros2_ws/build/localization_error_calculator -- -j8 -l8
+Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake --build /home/martin/ros2_ws/build/localization_error_calculator -- -j8 -l8
+Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake --install /home/martin/ros2_ws/build/localization_error_calculator
+Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake --install /home/martin/ros2_ws/build/localization_error_calculator

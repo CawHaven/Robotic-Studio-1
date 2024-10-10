@@ -1,0 +1,70 @@
+[0.032s] Invoking command in '/home/martin/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/dynamixel_sdk
+[0.753s] -- The C compiler identification is GNU 11.4.0
+[0.753s] -- The CXX compiler identification is GNU 11.4.0
+[0.753s] -- Detecting C compiler ABI info
+[0.753s] -- Detecting C compiler ABI info - done
+[0.753s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.753s] -- Detecting C compile features
+[0.753s] -- Detecting C compile features - done
+[0.753s] -- Detecting CXX compiler ABI info
+[0.753s] -- Detecting CXX compiler ABI info - done
+[0.754s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.754s] -- Detecting CXX compile features
+[0.754s] -- Detecting CXX compile features - done
+[0.754s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.983s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.204s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.488s] -- Configuring done
+[1.535s] -- Generating done
+[1.539s] -- Build files have been written to: /home/martin/ros2_ws/build/dynamixel_sdk
+[1.540s] Invoked command in '/home/martin/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/dynamixel_sdk
+[1.541s] Invoking command in '/home/martin/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[1.637s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.645s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[1.655s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[1.673s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[1.681s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[1.690s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[1.690s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[1.694s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.847s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[3.119s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[3.263s] [100%] Built target dynamixel_sdk
+[3.285s] Invoked command in '/home/martin/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[3.319s] Invoking command in '/home/martin/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_ws/build/dynamixel_sdk
+[3.325s] -- Install configuration: ""
+[3.326s] -- Execute custom install script
+[3.326s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[3.333s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[3.340s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[3.347s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[3.373s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[3.386s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[3.396s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[3.405s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[3.413s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[3.420s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[3.427s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[3.434s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[3.441s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[3.448s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[3.455s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[3.462s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[3.470s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[3.477s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[3.484s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[3.491s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[3.498s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[3.505s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[3.511s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[3.518s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[3.526s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[3.533s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[3.540s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[3.547s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[3.555s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.562s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[3.571s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[3.578s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[3.585s] -- Symlinking: /home/martin/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[3.594s] Invoked command in '/home/martin/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_ws/build/dynamixel_sdk

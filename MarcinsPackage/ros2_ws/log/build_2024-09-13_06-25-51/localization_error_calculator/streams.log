@@ -1,0 +1,69 @@
+[0.073s] Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake /home/martin/ros2_ws/src/localization_error_calculator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/localization_error_calculator
+[0.289s] -- The C compiler identification is GNU 11.4.0
+[0.506s] -- The CXX compiler identification is GNU 11.4.0
+[0.536s] -- Detecting C compiler ABI info
+[0.826s] -- Detecting C compiler ABI info - done
+[0.863s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.864s] -- Detecting C compile features
+[0.866s] -- Detecting C compile features - done
+[0.882s] -- Detecting CXX compiler ABI info
+[1.185s] -- Detecting CXX compiler ABI info - done
+[1.224s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.224s] -- Detecting CXX compile features
+[1.227s] -- Detecting CXX compile features - done
+[1.235s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.046s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.552s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.791s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.823s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.872s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.940s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.055s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.310s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.324s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.748s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.854s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.090s] -- Looking for pthread.h
+[4.353s] -- Looking for pthread.h - found
+[4.356s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.634s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.641s] -- Found Threads: TRUE  
+[4.940s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.004s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[5.225s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.588s] -- Configuring done
+[5.626s] -- Generating done
+[5.630s] [33mCMake Warning:
+[5.630s]   Manually-specified variables were not used by the project:
+[5.630s] 
+[5.631s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[5.631s] 
+[5.631s] -- Build files have been written to: /home/martin/ros2_ws/build/localization_error_calculator
+[5.631s] [0m
+[5.672s] Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake /home/martin/ros2_ws/src/localization_error_calculator -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/localization_error_calculator
+[5.690s] Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake --build /home/martin/ros2_ws/build/localization_error_calculator -- -j8 -l8
+[5.904s] [ 50%] [32mBuilding CXX object CMakeFiles/localization_error_calculator.dir/src/errorcalc.cpp.o[0m
+[57.174s] [100%] [32m[1mLinking CXX executable localization_error_calculator[0m
+[59.597s] [100%] Built target localization_error_calculator
+[59.670s] Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake --build /home/martin/ros2_ws/build/localization_error_calculator -- -j8 -l8
+[59.900s] Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake --install /home/martin/ros2_ws/build/localization_error_calculator
+[59.925s] -- Install configuration: ""
+[59.927s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/lib/localization_error_calculator/localization_error_calculator
+[59.952s] -- Set runtime path of "/home/martin/ros2_ws/install/localization_error_calculator/lib/localization_error_calculator/localization_error_calculator" to ""
+[59.952s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/package_run_dependencies/localization_error_calculator
+[59.952s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/parent_prefix_path/localization_error_calculator
+[59.953s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/ament_prefix_path.sh
+[59.953s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/ament_prefix_path.dsv
+[59.954s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/path.sh
+[59.957s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/path.dsv
+[59.957s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.bash
+[59.957s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.sh
+[59.957s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.zsh
+[59.958s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.dsv
+[59.958s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/package.dsv
+[59.959s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/packages/localization_error_calculator
+[59.960s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/cmake/localization_error_calculatorConfig.cmake
+[59.961s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/cmake/localization_error_calculatorConfig-version.cmake
+[59.962s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/package.xml
+[59.980s] Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake --install /home/martin/ros2_ws/build/localization_error_calculator

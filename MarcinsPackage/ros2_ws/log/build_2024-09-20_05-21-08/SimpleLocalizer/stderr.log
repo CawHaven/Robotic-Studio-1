@@ -1,0 +1,17 @@
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:[m[K In member function ‘[01m[Kcv::Mat SimpleLocalizer::extract_map_section(const cv::Mat&, const Pose&)[m[K’:
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:279:8:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Mat[m[K’?
+  279 |     cv:[01;31m[KMat[m[K axis_corrected_section;
+      |        [01;31m[K^~~[m[K
+      |        [32m[Kcv::Mat[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:6[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/mat.hpp:801:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat[m[K’ declared here
+  801 | class CV_EXPORTS [01;36m[KMat[m[K
+      |                  [01;36m[K^~~[m[K
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:280:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kaxis_corrected_section[m[K’ was not declared in this scope
+  280 |     cv::flip(rotated_section, [01;31m[Kaxis_corrected_section[m[K, 1);
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,27 @@
+[ 25%] Built target sprint1
+[ 50%] Built target sprint2
+[ 75%] Built target sprint3
+[ 87%] [32mBuilding CXX object CMakeFiles/sprint3part2.dir/src/sprint3part2.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sprint3part2[0m
+[100%] Built target sprint3part2
+-- Install configuration: ""
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/lib/robotics_studio_1/sprint1
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/lib/robotics_studio_1/sprint2
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/lib/robotics_studio_1/sprint3
+-- Installing: /home/martin/ros2_ws/install/robotics_studio_1/lib/robotics_studio_1/sprint3part2
+-- Set runtime path of "/home/martin/ros2_ws/install/robotics_studio_1/lib/robotics_studio_1/sprint3part2" to ""
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/ament_index/resource_index/package_run_dependencies/robotics_studio_1
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/ament_index/resource_index/parent_prefix_path/robotics_studio_1
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/environment/ament_prefix_path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/environment/path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/environment/path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/local_setup.bash
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/local_setup.sh
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/local_setup.zsh
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/local_setup.dsv
+-- Installing: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/package.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/ament_index/resource_index/packages/robotics_studio_1
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/cmake/robotics_studio_1Config.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/cmake/robotics_studio_1Config-version.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/robotics_studio_1/share/robotics_studio_1/package.xml

@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target localization_error_calculator[0m
+[100%] Built target localization_error_calculator
+-- Install configuration: ""
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/lib/localization_error_calculator/localization_error_calculator
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/package_run_dependencies/localization_error_calculator
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/parent_prefix_path/localization_error_calculator
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/ament_prefix_path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/path.sh
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/path.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.bash
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.sh
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.zsh
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.dsv
+-- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/package.dsv
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/packages/localization_error_calculator
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/cmake/localization_error_calculatorConfig.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/cmake/localization_error_calculatorConfig-version.cmake
+-- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/package.xml

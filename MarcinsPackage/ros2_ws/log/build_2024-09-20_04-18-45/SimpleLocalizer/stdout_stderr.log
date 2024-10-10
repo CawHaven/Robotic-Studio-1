@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target simplelocalizer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o[0m
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:[m[K In member function ‘[01m[Kvoid SimpleLocalizer::propagate_robot_pose(geometry_msgs::msg::Pose&, const Odometry&, double)[m[K’:
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:291:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >::_position_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’})
+  291 |         pose.position = [01;31m[Kground_truth_pose_[m[K; //* cos(match_score);
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance__struct.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/nav_msgs/nav_msgs/msg/odometry.hpp:7[m[K,
+                 from [01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+   32 | struct [01;36m[KPoint_[m[K
+      |        [01;36m[K^~~~~~[m[K
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >&[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Pose[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >&&[m[K’
+gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

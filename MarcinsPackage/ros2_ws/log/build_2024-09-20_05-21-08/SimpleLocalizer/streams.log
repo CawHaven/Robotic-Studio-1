@@ -1,0 +1,21 @@
+[0.016s] Invoking command in '/home/martin/ros2_ws/build/SimpleLocalizer': CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer /usr/bin/cmake --build /home/martin/ros2_ws/build/SimpleLocalizer -- -j8 -l8
+[0.059s] [35m[1mConsolidate compiler generated dependencies of target simplelocalizer[0m
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o[0m
+[4.203s] [01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:[m[K In member function ‘[01m[Kcv::Mat SimpleLocalizer::extract_map_section(const cv::Mat&, const Pose&)[m[K’:
+[4.203s] [01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:279:8:[m[K [01;31m[Kerror: [m[K‘[01m[KMat[m[K’ was not declared in this scope; did you mean ‘[01m[Kcv::Mat[m[K’?
+[4.203s]   279 |     cv:[01;31m[KMat[m[K axis_corrected_section;
+[4.203s]       |        [01;31m[K^~~[m[K
+[4.204s]       |        [32m[Kcv::Mat[m[K
+[4.204s] In file included from [01m[K/usr/include/opencv4/opencv2/core.hpp:58[m[K,
+[4.204s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+[4.204s]                  from [01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:6[m[K:
+[4.204s] [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:801:18:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::Mat[m[K’ declared here
+[4.204s]   801 | class CV_EXPORTS [01;36m[KMat[m[K
+[4.204s]       |                  [01;36m[K^~~[m[K
+[4.223s] [01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:280:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kaxis_corrected_section[m[K’ was not declared in this scope
+[4.223s]   280 |     cv::flip(rotated_section, [01;31m[Kaxis_corrected_section[m[K, 1);
+[4.224s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[10.470s] gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1
+[10.470s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2
+[10.470s] gmake: *** [Makefile:146: all] Error 2
+[10.473s] Invoked command in '/home/martin/ros2_ws/build/SimpleLocalizer' returned '2': CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/SimpleLocalizer /usr/bin/cmake --build /home/martin/ros2_ws/build/SimpleLocalizer -- -j8 -l8

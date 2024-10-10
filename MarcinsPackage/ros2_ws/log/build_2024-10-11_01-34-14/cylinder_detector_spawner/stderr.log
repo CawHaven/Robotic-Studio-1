@@ -1,0 +1,14 @@
+[01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/map_overlay.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/occupancy_grid.hpp: No such file or directory
+    7 | #include [01;31m[K<nav_msgs/msg/occupancy_grid.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/map_overlay.dir/build.make:76: CMakeFiles/map_overlay.dir/src/map_overlay.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/map_overlay.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/srv/spawn_entity.hpp: No such file or directory
+    8 | #include [01;31m[K<gazebo_msgs/srv/spawn_entity.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cylinder_detector.dir/build.make:76: CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/cylinder_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

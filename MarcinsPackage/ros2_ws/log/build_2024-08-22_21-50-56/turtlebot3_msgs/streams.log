@@ -1,0 +1,24 @@
+[0.041s] Invoking command in '/home/martin/ros2_ws/build/turtlebot3_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/turtlebot3_msgs -- -j8 -l8
+[0.468s] [  1%] Built target turtlebot3_msgs__cpp
+[0.468s] [ 12%] Built target turtlebot3_msgs__rosidl_generator_c
+[0.468s] [ 12%] Built target ament_cmake_python_symlink_turtlebot3_msgs
+[0.468s] [ 23%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_cpp
+[0.469s] [ 35%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_cpp
+[0.469s] [ 46%] Built target turtlebot3_msgs__rosidl_typesupport_cpp
+[0.469s] [ 57%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c
+[0.470s] [ 69%] Built target turtlebot3_msgs__rosidl_typesupport_c
+[0.470s] [ 80%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c
+[0.470s] [ 80%] Built target turtlebot3_msgs
+[0.471s] [ 81%] Built target turtlebot3_msgs__py
+[0.471s] [ 91%] Built target turtlebot3_msgs__rosidl_generator_py
+[0.471s] [ 94%] Built target turtlebot3_msgs__rosidl_typesupport_c__pyext
+[0.471s] [ 97%] Built target turtlebot3_msgs__rosidl_typesupport_introspection_c__pyext
+[0.471s] [100%] Built target turtlebot3_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.556s] running egg_info
+[0.556s] writing turtlebot3_msgs.egg-info/PKG-INFO
+[0.556s] writing dependency_links to turtlebot3_msgs.egg-info/dependency_links.txt
+[0.556s] writing top-level names to turtlebot3_msgs.egg-info/top_level.txt
+[0.557s] reading manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.557s] writing manifest file 'turtlebot3_msgs.egg-info/SOURCES.txt'
+[0.586s] [100%] Built target ament_cmake_python_build_turtlebot3_msgs_egg
+[0.636s] Invoked command in '/home/martin/ros2_ws/build/turtlebot3_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/turtlebot3_msgs -- -j8 -l8

@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target scan_sub_pub_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o[0m
+[01m[K/home/martin/ros2_ws/src/scan_sub_pub/src/scanSubPub.cpp:[m[K In member function ‘[01m[Kvoid System::publishCallback()[m[K’:
+[01m[K/home/martin/ros2_ws/src/scan_sub_pub/src/scanSubPub.cpp:25:55:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+   25 |                 message->header.stamp = rclcpp::Time::[01;31m[Know[m[K();
+      |                                                       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/scan_sub_pub_node.dir/build.make:76: CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scan_sub_pub_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

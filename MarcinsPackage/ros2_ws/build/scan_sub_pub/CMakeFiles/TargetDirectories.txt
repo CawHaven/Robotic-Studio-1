@@ -1,0 +1,10 @@
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/uninstall.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/scan_sub_pub_uninstall.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/scan_sub_pub_node.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/test.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/edit_cache.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/rebuild_cache.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/list_install_components.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/install.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/install/local.dir
+/home/martin/ros2_ws/build/scan_sub_pub/CMakeFiles/install/strip.dir

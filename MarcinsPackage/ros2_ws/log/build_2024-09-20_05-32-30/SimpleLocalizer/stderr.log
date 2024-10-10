@@ -1,0 +1,10 @@
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:[m[K In member function ‘[01m[Kvoid SimpleLocalizer::propagate_robot_pose(geometry_msgs::msg::Pose&, const Odometry&, double)[m[K’:
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:293:61:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+  293 |         robot_pose.position.x += odom.twist.twist.linear.x; [01;31m[K* cos(match_score)[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:294:61:[m[K [01;31m[Kerror: [m[Kinvalid type argument of unary ‘[01m[K*[m[K’ (have ‘[01m[Kdouble[m[K’)
+  294 |         robot_pose.position.y += odom.twist.twist.linear.y; [01;31m[K* sin(match_score)[m[K;
+      |                                                             [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

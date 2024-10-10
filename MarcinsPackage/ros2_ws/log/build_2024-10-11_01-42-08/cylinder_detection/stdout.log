@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target cylinder_detector[0m
+[ 50%] Built target map_overlay
+[ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable cylinder_detector[0m
+[100%] Built target cylinder_detector
+-- Install configuration: ""
+-- Installing: /home/martin/ros2_ws/install/cylinder_detection/lib/cylinder_detection/cylinder_detector
+-- Set runtime path of "/home/martin/ros2_ws/install/cylinder_detection/lib/cylinder_detection/cylinder_detector" to ""
+-- Installing: /home/martin/ros2_ws/install/cylinder_detection/lib/cylinder_detection/map_overlay
+-- Set runtime path of "/home/martin/ros2_ws/install/cylinder_detection/lib/cylinder_detection/map_overlay" to ""

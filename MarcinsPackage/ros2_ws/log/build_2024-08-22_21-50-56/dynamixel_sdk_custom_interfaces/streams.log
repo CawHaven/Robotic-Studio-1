@@ -1,0 +1,24 @@
+[0.036s] Invoking command in '/home/martin/ros2_ws/build/dynamixel_sdk_custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8
+[0.457s] [  2%] Built target dynamixel_sdk_custom_interfaces__cpp
+[0.458s] [ 12%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_c
+[0.458s] [ 12%] Built target ament_cmake_python_symlink_dynamixel_sdk_custom_interfaces
+[0.458s] [ 23%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.458s] [ 33%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c
+[0.458s] [ 43%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_cpp
+[0.458s] [ 53%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_cpp
+[0.458s] [ 64%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c
+[0.458s] [ 74%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c
+[0.458s] [ 74%] Built target dynamixel_sdk_custom_interfaces
+[0.458s] [ 76%] Built target dynamixel_sdk_custom_interfaces__py
+[0.459s] [ 84%] Built target dynamixel_sdk_custom_interfaces__rosidl_generator_py
+[0.459s] [ 89%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_c__pyext
+[0.459s] [ 94%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.459s] [100%] Built target dynamixel_sdk_custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.566s] running egg_info
+[0.570s] writing dynamixel_sdk_custom_interfaces.egg-info/PKG-INFO
+[0.570s] writing dependency_links to dynamixel_sdk_custom_interfaces.egg-info/dependency_links.txt
+[0.570s] writing top-level names to dynamixel_sdk_custom_interfaces.egg-info/top_level.txt
+[0.571s] reading manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[0.571s] writing manifest file 'dynamixel_sdk_custom_interfaces.egg-info/SOURCES.txt'
+[0.611s] [100%] Built target ament_cmake_python_build_dynamixel_sdk_custom_interfaces_egg
+[0.665s] Invoked command in '/home/martin/ros2_ws/build/dynamixel_sdk_custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/dynamixel_sdk_custom_interfaces -- -j8 -l8

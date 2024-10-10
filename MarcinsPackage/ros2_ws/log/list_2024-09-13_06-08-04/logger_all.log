@@ -1,0 +1,299 @@
+[0.496s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/martin/ros2_ws']
+[0.497s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/martin/ros2_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x750d5bb6c130>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x750d5bb2b280>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x750d5bb2b280>>, mixin_verb=('list',))
+[2.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.483s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.484s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.486s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/martin/ros2_ws'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'ignore'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'ignore_ament_install'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extensions ['colcon_pkg']
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'colcon_pkg'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extensions ['colcon_meta']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'colcon_meta'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extensions ['ros']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'ros'
+[2.583s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extensions ['cmake', 'python']
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'cmake'
+[2.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'python'
+[2.586s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extensions ['python_setup_py']
+[2.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws) by extension 'python_setup_py'
+[2.589s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[2.590s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/build) by extension 'ignore'
+[2.591s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/build) ignored
+[2.593s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[2.594s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/install) by extension 'ignore'
+[2.595s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/install) ignored
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[2.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/log) by extension 'ignore'
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/log) ignored
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[2.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'ignore'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'ignore_ament_install'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extensions ['colcon_pkg']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'colcon_pkg'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extensions ['colcon_meta']
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'colcon_meta'
+[2.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extensions ['ros']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'ros'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extensions ['cmake', 'python']
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'cmake'
+[2.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'python'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extensions ['python_setup_py']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src) by extension 'python_setup_py'
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extensions ['ignore', 'ignore_ament_install']
+[2.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'ignore'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'ignore_ament_install'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extensions ['colcon_pkg']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'colcon_pkg'
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extensions ['colcon_meta']
+[2.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'colcon_meta'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extensions ['ros']
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'ros'
+[2.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extensions ['cmake', 'python']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'cmake'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'python'
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extensions ['python_setup_py']
+[2.604s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK) by extension 'python_setup_py'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['ignore', 'ignore_ament_install']
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'ignore'
+[2.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'ignore_ament_install'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_pkg']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_pkg'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['colcon_meta']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'colcon_meta'
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extensions ['ros']
+[2.606s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk) by extension 'ros'
+[2.638s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk' with type 'ros.ament_cmake' and name 'dynamixel_sdk'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore'
+[2.639s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ignore_ament_install'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_pkg']
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_pkg'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['colcon_meta']
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'colcon_meta'
+[2.640s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extensions ['ros']
+[2.641s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces) by extension 'ros'
+[2.651s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_custom_interfaces' with type 'ros.ament_cmake' and name 'dynamixel_sdk_custom_interfaces'
+[2.659s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ignore', 'ignore_ament_install']
+[2.660s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore'
+[2.663s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ignore_ament_install'
+[2.664s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_pkg']
+[2.665s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_pkg'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['colcon_meta']
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'colcon_meta'
+[2.666s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extensions ['ros']
+[2.667s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples) by extension 'ros'
+[2.681s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/DynamixelSDK/dynamixel_sdk_examples' with type 'ros.ament_cmake' and name 'dynamixel_sdk_examples'
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extensions ['ignore', 'ignore_ament_install']
+[2.682s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'ignore'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'ignore_ament_install'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extensions ['colcon_pkg']
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'colcon_pkg'
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extensions ['colcon_meta']
+[2.683s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'colcon_meta'
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extensions ['ros']
+[2.684s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'ros'
+[2.690s] DEBUG:colcon.colcon_core.package_identification:Failed to parse potential ROS package manifest in'/home/martin/ros2_ws/src/errorcalc': Error(s) in package '/home/martin/ros2_ws/src/errorcalc/package.xml':
+Error(s):
+- The generic dependency on 'rclcpp' is redundant with: exec_depend
+- The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+- The generic dependency on 'gazebo_msgs' is redundant with: exec_depend
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extensions ['cmake', 'python']
+[2.691s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'cmake'
+[2.696s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/errorcalc) by extension 'python'
+[2.697s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/errorcalc' with type 'cmake' and name 'localization_error_calculator'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'ignore'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'ignore_ament_install'
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extensions ['colcon_pkg']
+[2.698s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'colcon_pkg'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extensions ['colcon_meta']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'colcon_meta'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extensions ['ros']
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'ros'
+[2.699s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extensions ['cmake', 'python']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'cmake'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'python'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extensions ['python_setup_py']
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials) by extension 'python_setup_py'
+[2.700s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/ros_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/ros_tutorials) by extension 'ignore'
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/ros_tutorials) ignored
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.701s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/roscpp_tutorials) by extension 'ignore'
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/roscpp_tutorials) ignored
+[2.702s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/rospy_tutorials) by extensions ['ignore', 'ignore_ament_install']
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/rospy_tutorials) by extension 'ignore'
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/rospy_tutorials) ignored
+[2.703s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['ignore', 'ignore_ament_install']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ignore'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ignore_ament_install'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_pkg']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extension 'colcon_pkg'
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['colcon_meta']
+[2.704s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extension 'colcon_meta'
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extensions ['ros']
+[2.706s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/ros_tutorials/turtlesim) by extension 'ros'
+[2.716s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/ros_tutorials/turtlesim' with type 'ros.ament_cmake' and name 'turtlesim'
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extensions ['ignore', 'ignore_ament_install']
+[2.717s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extension 'ignore'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extension 'ignore_ament_install'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extensions ['colcon_pkg']
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extension 'colcon_pkg'
+[2.718s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extensions ['colcon_meta']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extension 'colcon_meta'
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extensions ['ros']
+[2.719s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/scan_sub_pub) by extension 'ros'
+[2.721s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/scan_sub_pub' with type 'ros.ament_cmake' and name 'scan_sub_pub'
+[2.721s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'ignore'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'ignore_ament_install'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extensions ['colcon_pkg']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'colcon_pkg'
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extensions ['colcon_meta']
+[2.722s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'colcon_meta'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extensions ['ros']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'ros'
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extensions ['cmake', 'python']
+[2.723s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'cmake'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'python'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extensions ['python_setup_py']
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3) by extension 'python_setup_py'
+[2.724s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extension 'ignore'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[2.725s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extensions ['ros']
+[2.726s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3) by extension 'ros'
+[2.729s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[2.729s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[2.730s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[2.731s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[2.734s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[2.735s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[2.736s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[2.739s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[2.739s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[2.740s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[2.751s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[2.752s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[2.764s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description) by extension 'ros'
+[2.783s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[2.783s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[2.784s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[2.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[2.787s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[2.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[2.788s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example) by extension 'ros'
+[2.795s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[2.796s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[2.797s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[2.798s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[2.802s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[2.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[2.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[2.804s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[2.806s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[2.807s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node) by extension 'ros'
+[2.823s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[2.823s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[2.824s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[2.827s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[2.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[2.833s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[2.840s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[2.845s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extension 'ignore'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extension 'ignore_ament_install'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extensions ['colcon_pkg']
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extension 'colcon_pkg'
+[2.846s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extensions ['colcon_meta']
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extension 'colcon_meta'
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extensions ['ros']
+[2.847s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_msgs) by extension 'ros'
+[2.852s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3_msgs' with type 'ros.ament_cmake' and name 'turtlebot3_msgs'
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'ignore'
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[2.853s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'colcon_pkg'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extensions ['colcon_meta']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'colcon_meta'
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extensions ['ros']
+[2.854s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'ros'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'cmake'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'python'
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extensions ['python_setup_py']
+[2.855s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations) by extension 'python_setup_py'
+[2.856s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[2.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[2.861s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[2.862s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[2.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[2.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[2.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[2.868s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[2.881s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[2.882s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[2.883s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[2.884s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[2.888s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[2.889s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[2.893s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[2.894s] Level 1:colcon.colcon_core.package_identification:_identify(/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[2.902s] DEBUG:colcon.colcon_core.package_identification:Package '/home/martin/ros2_ws/src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[2.902s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

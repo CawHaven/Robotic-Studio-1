@@ -1,0 +1,4 @@
+source;share/robotics_studio_1/local_setup.bash
+source;share/robotics_studio_1/local_setup.dsv
+source;share/robotics_studio_1/local_setup.sh
+source;share/robotics_studio_1/local_setup.zsh

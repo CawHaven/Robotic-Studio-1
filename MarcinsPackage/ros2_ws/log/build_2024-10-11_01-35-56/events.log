@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000103] (-) JobUnselected: {'identifier': 'SimpleLocalizer'}
+[0.000126] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000144] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000159] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.000195] (-) JobUnselected: {'identifier': 'localization_error_calculator'}
+[0.000210] (-) JobUnselected: {'identifier': 'robotics_studio_1'}
+[0.000223] (-) JobUnselected: {'identifier': 'scan_sub_pub'}
+[0.000237] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000250] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000264] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000277] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000290] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000303] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.000316] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.000329] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.000343] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000360] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000392] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.000421] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000435] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.000450] (cylinder_detector_spawner) JobQueued: {'identifier': 'cylinder_detector_spawner', 'dependencies': OrderedDict()}
+[0.000467] (cylinder_detector_spawner) JobStarted: {'identifier': 'cylinder_detector_spawner'}
+[0.008891] (cylinder_detector_spawner) JobProgress: {'identifier': 'cylinder_detector_spawner', 'progress': 'cmake'}
+[0.009774] (cylinder_detector_spawner) JobProgress: {'identifier': 'cylinder_detector_spawner', 'progress': 'build'}
+[0.009806] (cylinder_detector_spawner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/martin/ros2_ws/build/cylinder_detector_spawner', '--', '-j8', '-l8'], 'cwd': '/home/martin/ros2_ws/build/cylinder_detector_spawner', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_AU:en'), ('USER', 'martin'), ('ROS_PACKAGE_PATH', '/home/martin/install/localization_error_calculator/share'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/martin/ros2_ws/install/turtlesim/lib:/home/martin/ros2_ws/install/turtlebot3_msgs/lib:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/martin/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/martin'), ('OLDPWD', '/home/martin'), ('DESKTOP_SESSION', 'ubuntu'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1320'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/martin/ros2_ws/install:/home/martin/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'martin'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/martin/install/localization_error_calculator/lib/x86_64-linux-gnu/pkgconfig:/home/martin/install/localization_error_calculator/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'martin'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/home/martin/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/martin-Dell:@/tmp/.ICE-unix/1083,unix/martin-Dell:/tmp/.ICE-unix/1083'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/767d02f6_8dd7_4895_ad39_a08d6a44d0af'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RMLGV2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.655'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/cylinder_detector_spawner:/home/martin/ros2_ws/install/SimpleLocalizer:/home/martin/install/turtlebot3_navigation2:/home/martin/install/turtlebot3_cartographer:/home/martin/install/robotics_studio_1:/home/martin/install/SimpleLocalizer:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/martin/ros2_ws/build/cylinder_detector_spawner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/martin/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/build/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/martin/ros2_ws/build/turtlebot3_example:/home/martin/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/martin/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/cylinder_detector_spawner:/home/martin/ros2_ws/install/SimpleLocalizer:/home/martin/install/turtlebot3_navigation2:/home/martin/install/turtlebot3_description:/home/martin/install/turtlebot3_cartographer:/home/martin/install/robotics_studio_1:/home/martin/install/localization_error_calculator:/home/martin/install/SimpleLocalizer')]), 'shell': False}
+[0.032270] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099326] (-) TimerEvent: {}
+[0.141765] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.165621] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.167823] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.172620] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.181289] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.192173] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199403] (-) TimerEvent: {}
+[0.219669] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.221468] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299499] (-) TimerEvent: {}
+[0.310557] (cylinder_detector_spawner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.354068] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.379114] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.395770] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[0.399560] (-) TimerEvent: {}
+[0.467049] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.469104] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.470265] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.471458] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.7.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[0.499662] (-) TimerEvent: {}
+[0.508161] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.599777] (-) TimerEvent: {}
+[0.601284] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.618235] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Generating done\n'}
+[0.619942] (cylinder_detector_spawner) StdoutLine: {'line': b'-- Build files have been written to: /home/martin/ros2_ws/build/cylinder_detector_spawner\n'}
+[0.642798] (cylinder_detector_spawner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cylinder_detector\x1b[0m\n'}
+[0.650429] (cylinder_detector_spawner) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/map_overlay.dir/src/map_overlay.cpp.o\x1b[0m\n'}
+[0.657619] (cylinder_detector_spawner) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o\x1b[0m\n'}
+[0.699892] (-) TimerEvent: {}
+[0.800424] (-) TimerEvent: {}
+[0.894145] (cylinder_detector_spawner) StderrLine: {'line': b'\x1b[01m\x1b[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:8:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kgazebo_msgs/srv/spawn_entity.hpp: No such file or directory\n'}
+[0.894298] (cylinder_detector_spawner) StderrLine: {'line': b'    8 | #include \x1b[01;31m\x1b[K<gazebo_msgs/srv/spawn_entity.hpp>\x1b[m\x1b[K\n'}
+[0.894369] (cylinder_detector_spawner) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.894427] (cylinder_detector_spawner) StderrLine: {'line': b'compilation terminated.\n'}
+[0.896815] (cylinder_detector_spawner) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cylinder_detector.dir/build.make:76: CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o] Error 1\n'}
+[0.897080] (cylinder_detector_spawner) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/cylinder_detector.dir/all] Error 2\n'}
+[0.897169] (cylinder_detector_spawner) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.900435] (-) TimerEvent: {}
+[1.000672] (-) TimerEvent: {}
+[1.100948] (-) TimerEvent: {}
+[1.201225] (-) TimerEvent: {}
+[1.301511] (-) TimerEvent: {}
+[1.401783] (-) TimerEvent: {}
+[1.502064] (-) TimerEvent: {}
+[1.602311] (-) TimerEvent: {}
+[1.702589] (-) TimerEvent: {}
+[1.802856] (-) TimerEvent: {}
+[1.903123] (-) TimerEvent: {}
+[2.003401] (-) TimerEvent: {}
+[2.103671] (-) TimerEvent: {}
+[2.203942] (-) TimerEvent: {}
+[2.304204] (-) TimerEvent: {}
+[2.404496] (-) TimerEvent: {}
+[2.504760] (-) TimerEvent: {}
+[2.605034] (-) TimerEvent: {}
+[2.705299] (-) TimerEvent: {}
+[2.805582] (-) TimerEvent: {}
+[2.905852] (-) TimerEvent: {}
+[3.006119] (-) TimerEvent: {}
+[3.106396] (-) TimerEvent: {}
+[3.206668] (-) TimerEvent: {}
+[3.306934] (-) TimerEvent: {}
+[3.407205] (-) TimerEvent: {}
+[3.507513] (-) TimerEvent: {}
+[3.607783] (-) TimerEvent: {}
+[3.708052] (-) TimerEvent: {}
+[3.808324] (-) TimerEvent: {}
+[3.908673] (-) TimerEvent: {}
+[4.008939] (-) TimerEvent: {}
+[4.109202] (-) TimerEvent: {}
+[4.209503] (-) TimerEvent: {}
+[4.309774] (-) TimerEvent: {}
+[4.410053] (-) TimerEvent: {}
+[4.510319] (-) TimerEvent: {}
+[4.610595] (-) TimerEvent: {}
+[4.710863] (-) TimerEvent: {}
+[4.811131] (-) TimerEvent: {}
+[4.911408] (-) TimerEvent: {}
+[5.011676] (-) TimerEvent: {}
+[5.111938] (-) TimerEvent: {}
+[5.212196] (-) TimerEvent: {}
+[5.312463] (-) TimerEvent: {}
+[5.412735] (-) TimerEvent: {}
+[5.513009] (-) TimerEvent: {}
+[5.613279] (-) TimerEvent: {}
+[5.713549] (-) TimerEvent: {}
+[5.813806] (-) TimerEvent: {}
+[5.914064] (-) TimerEvent: {}
+[6.014322] (-) TimerEvent: {}
+[6.114589] (-) TimerEvent: {}
+[6.214856] (-) TimerEvent: {}
+[6.315113] (-) TimerEvent: {}
+[6.415379] (-) TimerEvent: {}
+[6.515634] (-) TimerEvent: {}
+[6.615889] (-) TimerEvent: {}
+[6.716149] (-) TimerEvent: {}
+[6.816408] (-) TimerEvent: {}
+[6.916664] (-) TimerEvent: {}
+[7.016922] (-) TimerEvent: {}
+[7.117184] (-) TimerEvent: {}
+[7.217409] (-) TimerEvent: {}
+[7.317662] (-) TimerEvent: {}
+[7.417919] (-) TimerEvent: {}
+[7.518198] (-) TimerEvent: {}
+[7.618455] (-) TimerEvent: {}
+[7.718710] (-) TimerEvent: {}
+[7.819333] (-) TimerEvent: {}
+[7.919635] (-) TimerEvent: {}
+[8.019913] (-) TimerEvent: {}
+[8.120197] (-) TimerEvent: {}
+[8.220468] (-) TimerEvent: {}
+[8.271721] (cylinder_detector_spawner) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable map_overlay\x1b[0m\n'}
+[8.320585] (-) TimerEvent: {}
+[8.420905] (-) TimerEvent: {}
+[8.521192] (-) TimerEvent: {}
+[8.621476] (-) TimerEvent: {}
+[8.721753] (-) TimerEvent: {}
+[8.822034] (-) TimerEvent: {}
+[8.846061] (cylinder_detector_spawner) StdoutLine: {'line': b'[ 75%] Built target map_overlay\n'}
+[8.847000] (cylinder_detector_spawner) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.848694] (cylinder_detector_spawner) CommandEnded: {'returncode': 2}
+[8.878957] (cylinder_detector_spawner) JobEnded: {'identifier': 'cylinder_detector_spawner', 'rc': 2}
+[8.889411] (-) EventReactorShutdown: {}

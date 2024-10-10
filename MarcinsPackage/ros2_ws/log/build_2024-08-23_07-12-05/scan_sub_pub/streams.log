@@ -1,0 +1,11 @@
+[0.010s] Invoking command in '/home/martin/ros2_ws/build/scan_sub_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/scan_sub_pub -- -j8 -l8
+[0.043s] [35m[1mConsolidate compiler generated dependencies of target scan_sub_pub_node[0m
+[0.056s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o[0m
+[2.149s] [01m[K/home/martin/ros2_ws/src/scan_sub_pub/src/scanSubPub.cpp:[m[K In member function ‘[01m[Kvoid System::publishCallback()[m[K’:
+[2.149s] [01m[K/home/martin/ros2_ws/src/scan_sub_pub/src/scanSubPub.cpp:25:55:[m[K [01;31m[Kerror: [m[K‘[01m[Know[m[K’ is not a member of ‘[01m[Krclcpp::Time[m[K’
+[2.149s]    25 |                 message->header.stamp = rclcpp::Time::[01;31m[Know[m[K();
+[2.149s]       |                                                       [01;31m[K^~~[m[K
+[4.451s] gmake[2]: *** [CMakeFiles/scan_sub_pub_node.dir/build.make:76: CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o] Error 1
+[4.451s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/scan_sub_pub_node.dir/all] Error 2
+[4.451s] gmake: *** [Makefile:146: all] Error 2
+[4.454s] Invoked command in '/home/martin/ros2_ws/build/scan_sub_pub' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/scan_sub_pub -- -j8 -l8

@@ -1,0 +1,23 @@
+[0.079s] Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake --build /home/martin/ros2_ws/build/localization_error_calculator -- -j8 -l8
+[0.207s] [35m[1mConsolidate compiler generated dependencies of target localization_error_calculator[0m
+[0.259s] [100%] Built target localization_error_calculator
+[0.309s] Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake --build /home/martin/ros2_ws/build/localization_error_calculator -- -j8 -l8
+[0.535s] Invoking command in '/home/martin/ros2_ws/build/localization_error_calculator': /usr/bin/cmake --install /home/martin/ros2_ws/build/localization_error_calculator
+[0.553s] -- Install configuration: ""
+[0.554s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/lib/localization_error_calculator/localization_error_calculator
+[0.555s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/package_run_dependencies/localization_error_calculator
+[0.555s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/parent_prefix_path/localization_error_calculator
+[0.556s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/ament_prefix_path.sh
+[0.557s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/ament_prefix_path.dsv
+[0.558s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/path.sh
+[0.559s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/environment/path.dsv
+[0.559s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.bash
+[0.560s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.sh
+[0.561s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.zsh
+[0.562s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/local_setup.dsv
+[0.562s] -- Installing: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/package.dsv
+[0.565s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/ament_index/resource_index/packages/localization_error_calculator
+[0.569s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/cmake/localization_error_calculatorConfig.cmake
+[0.573s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/cmake/localization_error_calculatorConfig-version.cmake
+[0.574s] -- Up-to-date: /home/martin/ros2_ws/install/localization_error_calculator/share/localization_error_calculator/package.xml
+[0.575s] Invoked command in '/home/martin/ros2_ws/build/localization_error_calculator' returned '0': /usr/bin/cmake --install /home/martin/ros2_ws/build/localization_error_calculator

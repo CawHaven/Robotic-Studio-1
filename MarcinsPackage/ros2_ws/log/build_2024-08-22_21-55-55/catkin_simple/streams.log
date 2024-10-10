@@ -1,0 +1,40 @@
+[0.045s] Invoking command in '/home/martin/ros2_ws/build/catkin_simple': /usr/bin/cmake /home/martin/ros2_ws/src/catkin_simple -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/martin/ros2_ws/install/catkin_simple
+[0.054s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.054s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.054s]   CMake.
+[0.056s] 
+[0.056s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.056s]   CMake that the project does not need compatibility with older versions.
+[0.057s] 
+[0.057s] [0m
+[0.134s] -- The C compiler identification is GNU 11.4.0
+[0.245s] -- The CXX compiler identification is GNU 11.4.0
+[0.254s] -- Detecting C compiler ABI info
+[0.328s] -- Detecting C compiler ABI info - done
+[0.346s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.346s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.351s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.430s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.431s] -- Detecting CXX compile features
+[0.431s] -- Detecting CXX compile features - done
+[0.441s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.442s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.442s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.442s]   CMake did not find one.
+[0.442s] 
+[0.442s]   Could not find a package configuration file provided by "catkin" with any
+[0.442s]   of the following names:
+[0.442s] 
+[0.442s]     catkinConfig.cmake
+[0.442s]     catkin-config.cmake
+[0.442s] 
+[0.442s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.442s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.442s]   provides a separate development package or SDK, be sure it has been
+[0.442s]   installed.
+[0.442s] 
+[0.442s] [0m
+[0.442s] -- Configuring incomplete, errors occurred!
+[0.442s] See also "/home/martin/ros2_ws/build/catkin_simple/CMakeFiles/CMakeOutput.log".

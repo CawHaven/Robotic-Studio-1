@@ -1,0 +1,47 @@
+[0.011s] Invoking command in '/home/martin/ros2_ws/build/cylinder_detection': CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/cylinder_detector_spawner:/home/martin/ros2_ws/install/SimpleLocalizer:/home/martin/install/turtlebot3_navigation2:/home/martin/install/turtlebot3_description:/home/martin/install/turtlebot3_cartographer:/home/martin/install/robotics_studio_1:/home/martin/install/localization_error_calculator:/home/martin/install/SimpleLocalizer /usr/bin/cmake --build /home/martin/ros2_ws/build/cylinder_detection -- -j8 -l8
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target map_overlay[0m
+[0.044s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detector[0m
+[0.057s] [ 50%] Built target map_overlay
+[0.058s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o[0m
+[0.260s] In file included from [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:12[m[K:
+[0.260s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[0.260s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[0.260s]       |  [01;35m[K^~~~~~~[m[K
+[2.733s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:30:5:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KCylinderDetectionNode[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.733s]    30 |     [01;31m[KCylinderDetectionNode[m[K() : Node("cylinder_detector")
+[2.733s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.816s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:[m[K In member function ‘[01m[Kint CylinderDetectorNode::CylinderDetectionNode()[m[K’:
+[2.816s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:30:31:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+[2.816s]    30 |     CylinderDetectionNode() : [01;31m[KNode[m[K("cylinder_detector")
+[2.816s]       |                               [01;31m[K^~~~[m[K
+[2.817s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:38:13:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.817s]    38 |             [01;31m[Kreturn[m[K;
+[2.817s]       |             [01;31m[K^~~~~~[m[K
+[2.820s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:76:37:[m[K [01;31m[Kerror: [m[K‘[01m[KCylinderDetectionNode[m[K’ is not a class, namespace, or enumeration
+[2.820s]    76 |             "/scan", 10, std::bind(&[01;31m[KCylinderDetectionNode[m[K::laser_callback, this, std::placeholders::_1));
+[2.820s]       |                                     [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.820s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:78:46:[m[K [01;31m[Kerror: [m[K‘[01m[KCylinderDetectionNode[m[K’ is not a class, namespace, or enumeration
+[2.820s]    78 |             "/clicked_point", 10, std::bind(&[01;31m[KCylinderDetectionNode[m[K::clicked_point_callback, this, std::placeholders::_1));
+[2.820s]       |                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.907s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.907s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:347:34:[m[K [01;31m[Kerror: [m[K‘[01m[KCylinderDetectionNode[m[K’ was not declared in this scope; did you mean ‘[01m[KCylinderDetectorNode[m[K’?
+[2.907s]   347 |     auto node = std::make_shared<[01;31m[KCylinderDetectionNode[m[K>();
+[2.907s]       |                                  [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[2.907s]       |                                  [32m[KCylinderDetectorNode[m[K
+[2.907s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:347:56:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[2.907s]   347 |     auto node = [01;31m[Kstd::make_shared<CylinderDetectionNode>()[m[K;
+[2.907s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.907s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[2.908s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[2.908s]                  from [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:6[m[K:
+[2.908s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<_Tp> std::make_shared(_Args&& ...)[m[K’
+[2.908s]   875 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[2.908s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[2.908s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:875:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.908s] [01m[K/home/martin/ros2_ws/src/cylinder_detector_spawner/src/cylinder_detector.cpp:347:56:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.908s]   347 |     auto node = [01;31m[Kstd::make_shared<CylinderDetectionNode>()[m[K;
+[2.908s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[4.039s] gmake[2]: *** [CMakeFiles/cylinder_detector.dir/build.make:76: CMakeFiles/cylinder_detector.dir/src/cylinder_detector.cpp.o] Error 1
+[4.039s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/cylinder_detector.dir/all] Error 2
+[4.039s] gmake: *** [Makefile:146: all] Error 2
+[4.041s] Invoked command in '/home/martin/ros2_ws/build/cylinder_detection' returned '2': CMAKE_PREFIX_PATH=/home/martin/ros2_ws/install/turtlesim:/home/martin/ros2_ws/install/turtlebot3:/home/martin/ros2_ws/install/turtlebot3_simulations:/home/martin/ros2_ws/install/turtlebot3_bringup:/home/martin/ros2_ws/install/turtlebot3_node:/home/martin/ros2_ws/install/turtlebot3_navigation2:/home/martin/ros2_ws/install/turtlebot3_fake_node:/home/martin/ros2_ws/install/turtlebot3_msgs:/home/martin/ros2_ws/install/turtlebot3_gazebo:/home/martin/ros2_ws/install/turtlebot3_description:/home/martin/ros2_ws/install/turtlebot3_cartographer:/home/martin/ros2_ws/install/scan_sub_pub:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble:/home/martin/ros2_ws/install/localization_error_calculator:/home/martin/ros2_ws/install/dynamixel_sdk_examples:/home/martin/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/martin/ros2_ws/install/dynamixel_sdk:/home/martin/ros2_ws/install/cylinder_detector_spawner:/home/martin/ros2_ws/install/SimpleLocalizer:/home/martin/install/turtlebot3_navigation2:/home/martin/install/turtlebot3_description:/home/martin/install/turtlebot3_cartographer:/home/martin/install/robotics_studio_1:/home/martin/install/localization_error_calculator:/home/martin/install/SimpleLocalizer /usr/bin/cmake --build /home/martin/ros2_ws/build/cylinder_detection -- -j8 -l8

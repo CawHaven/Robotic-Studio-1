@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target map_overlay[0m
+[35m[1mConsolidate compiler generated dependencies of target cylinder_detector[0m
+[ 50%] Built target map_overlay
+[100%] Built target cylinder_detector
+-- Install configuration: ""
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/lib/Sprint3/cylinder_detector
+-- Up-to-date: /home/martin/ros2_ws/install/Sprint3/lib/Sprint3/map_overlay
+[31mCMake Error at cmake_install.cmake:86 (file):
+  file INSTALL cannot find "/home/martin/ros2_ws/src/Sprint3/launch": No such
+  file or directory.
+
+[0m

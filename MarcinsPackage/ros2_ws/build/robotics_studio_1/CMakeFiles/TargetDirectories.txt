@@ -1,0 +1,13 @@
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/uninstall.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/robotics_studio_1_uninstall.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/sprint1.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/sprint2.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/sprint3.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/sprint3part2.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/test.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/edit_cache.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/rebuild_cache.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/list_install_components.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/install.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/install/local.dir
+/home/martin/ros2_ws/build/robotics_studio_1/CMakeFiles/install/strip.dir

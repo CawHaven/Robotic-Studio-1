@@ -1,0 +1,55 @@
+\hypertarget{sprint3part2_8cpp}{}\doxysection{src/sprint3part2.cpp File Reference}
+\label{sprint3part2_8cpp}\index{src/sprint3part2.cpp@{src/sprint3part2.cpp}}
+{\ttfamily \#include $<$rclcpp/rclcpp.\+hpp$>$}\newline
+{\ttfamily \#include $<$sensor\+\_\+msgs/msg/laser\+\_\+scan.\+hpp$>$}\newline
+{\ttfamily \#include $<$gazebo\+\_\+msgs/srv/spawn\+\_\+entity.\+hpp$>$}\newline
+{\ttfamily \#include $<$tf2\+\_\+ros/transform\+\_\+listener.\+h$>$}\newline
+{\ttfamily \#include $<$tf2\+\_\+ros/buffer.\+h$>$}\newline
+{\ttfamily \#include $<$tf2/\+Linear\+Math/\+Quaternion.\+h$>$}\newline
+{\ttfamily \#include $<$tf2\+\_\+geometry\+\_\+msgs/tf2\+\_\+geometry\+\_\+msgs.\+h$>$}\newline
+{\ttfamily \#include $<$geometry\+\_\+msgs/msg/transform\+\_\+stamped.\+hpp$>$}\newline
+{\ttfamily \#include $<$opencv2/opencv.\+hpp$>$}\newline
+{\ttfamily \#include $<$cmath$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$optional$>$}\newline
+Include dependency graph for sprint3part2.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{sprint3part2_8cpp__incl}
+\end{center}
+\end{figure}
+\doxysubsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{classCylinderDetectionNode}{Cylinder\+Detection\+Node}}
+\begin{DoxyCompactList}\small\item\em Node for detecting cylinders using laser scan data and displaying on an Open\+CV window. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{sprint3part2_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}{main}} (int argc, char $\ast$$\ast$argv)
+\begin{DoxyCompactList}\small\item\em Main function to create and spin the \mbox{\hyperlink{classCylinderDetectionNode}{Cylinder\+Detection\+Node}}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Function Documentation}
+\mbox{\Hypertarget{sprint3part2_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}\label{sprint3part2_8cpp_a3c04138a5bfe5d72780bb7e82a18e627}} 
+\index{sprint3part2.cpp@{sprint3part2.cpp}!main@{main}}
+\index{main@{main}!sprint3part2.cpp@{sprint3part2.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char $\ast$$\ast$}]{argv }\end{DoxyParamCaption})}
+
+
+
+Main function to create and spin the \mbox{\hyperlink{classCylinderDetectionNode}{Cylinder\+Detection\+Node}}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Argument count. \\
+\hline
+{\em argv} & Argument vector. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int Exit status. 
+\end{DoxyReturn}

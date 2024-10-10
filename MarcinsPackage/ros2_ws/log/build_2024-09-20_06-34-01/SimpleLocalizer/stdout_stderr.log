@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target simplelocalizer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o[0m
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:[m[K In member function ‘[01m[Kvoid SimpleLocalizer::propagate_robot_pose(geometry_msgs::msg::Pose&, const Odometry&, double)[m[K’:
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:304:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+  304 |         robot_pose.position.x =odom.pose.pose.[01;31m[Kx[m[K; //* 1*sin(match_score);
+      |                                               [01;31m[K^[m[K
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:305:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst _pose_type[m[K’ {aka ‘[01m[Kconst struct geometry_msgs::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+  305 |         robot_pose.position.y = odom.pose.pose.[01;31m[Ky[m[K;// *-1* cos(match_score);
+      |                                                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

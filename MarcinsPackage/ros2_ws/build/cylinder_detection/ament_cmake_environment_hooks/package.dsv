@@ -1,0 +1,4 @@
+source;share/cylinder_detection/local_setup.bash
+source;share/cylinder_detection/local_setup.dsv
+source;share/cylinder_detection/local_setup.sh
+source;share/cylinder_detection/local_setup.zsh

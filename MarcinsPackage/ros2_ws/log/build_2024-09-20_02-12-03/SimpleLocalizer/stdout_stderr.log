@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target simplelocalizer[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o[0m
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:[m[K In member function ‘[01m[Kcv::Mat SimpleLocalizer::extract_map_section(const cv::Mat&, const Pose&)[m[K’:
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:245:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::x[m[K’ in read-only object
+  245 |         [01;31m[Kpose.position.x += 2.049114244167206[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/martin/ros2_ws/src/SimpleLocalizer/src/simplelocalizer.cpp:246:25:[m[K [01;31m[Kerror: [m[Kassignment of member ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::y[m[K’ in read-only object
+  246 |         [01;31m[Kpose.position.y += 0.5000196437467848[m[K;
+      |         [01;31m[K~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/simplelocalizer.dir/build.make:76: CMakeFiles/simplelocalizer.dir/src/simplelocalizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/simplelocalizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

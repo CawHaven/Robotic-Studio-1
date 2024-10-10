@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20241010-0853-Experimental"
+	Name="martin-Dell"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/g++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="martin-Dell"
+	OSRelease="6.8.0-40-generic"
+	OSVersion="#40~22.04.3-Ubuntu SMP PREEMPT_DYNAMIC Tue Jul 30 17:30:19 UTC 2"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="142"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="0"
+	TotalPhysicalMemory="15768"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="2399.99"
+	>
+	<Testing>
+		<StartDateTime>Oct 10 19:53 AEDT</StartDateTime>
+		<StartTestTime>1728550392</StartTestTime>
+		<TestList/>
+		<EndDateTime>Oct 10 19:53 AEDT</EndDateTime>
+		<EndTestTime>1728550392</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

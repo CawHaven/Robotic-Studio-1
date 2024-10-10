@@ -1,0 +1,28 @@
+[0.014s] Invoking command in '/home/martin/ros2_ws/build/scan_sub_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/scan_sub_pub -- -j8 -l8
+[0.082s] [35m[1mConsolidate compiler generated dependencies of target scan_sub_pub_node[0m
+[0.098s] [ 50%] [32mBuilding CXX object CMakeFiles/scan_sub_pub_node.dir/src/scanSubPub.cpp.o[0m
+[7.804s] [100%] [32m[1mLinking CXX executable scan_sub_pub_node[0m
+[8.213s] [100%] Built target scan_sub_pub_node
+[8.224s] Invoked command in '/home/martin/ros2_ws/build/scan_sub_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/scan_sub_pub -- -j8 -l8
+[8.252s] Invoking command in '/home/martin/ros2_ws/build/scan_sub_pub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_ws/build/scan_sub_pub
+[8.259s] -- Install configuration: ""
+[8.259s] -- Installing: /home/martin/ros2_ws/install/scan_sub_pub/lib/scan_sub_pub/scan_sub_pub_node
+[8.261s] -- Set runtime path of "/home/martin/ros2_ws/install/scan_sub_pub/lib/scan_sub_pub/scan_sub_pub_node" to ""
+[8.261s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/include
+[8.261s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/include/scanSubPub.h
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/ament_index/resource_index/package_run_dependencies/scan_sub_pub
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/ament_index/resource_index/parent_prefix_path/scan_sub_pub
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/environment/ament_prefix_path.sh
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/environment/ament_prefix_path.dsv
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/environment/path.sh
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/environment/path.dsv
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/local_setup.bash
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/local_setup.sh
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/local_setup.zsh
+[8.262s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/local_setup.dsv
+[8.262s] -- Installing: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/package.dsv
+[8.263s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/ament_index/resource_index/packages/scan_sub_pub
+[8.263s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/cmake/scan_sub_pubConfig.cmake
+[8.263s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/cmake/scan_sub_pubConfig-version.cmake
+[8.263s] -- Up-to-date: /home/martin/ros2_ws/install/scan_sub_pub/share/scan_sub_pub/package.xml
+[8.264s] Invoked command in '/home/martin/ros2_ws/build/scan_sub_pub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_ws/build/scan_sub_pub

@@ -1,0 +1,4 @@
+source;share/Sprint3/local_setup.bash
+source;share/Sprint3/local_setup.dsv
+source;share/Sprint3/local_setup.sh
+source;share/Sprint3/local_setup.zsh

@@ -1,0 +1,25 @@
+[0.035s] Invoking command in '/home/martin/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/turtlebot3_cartographer -- -j8 -l8
+[0.501s] Invoked command in '/home/martin/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/martin/ros2_ws/build/turtlebot3_cartographer -- -j8 -l8
+[0.547s] Invoking command in '/home/martin/ros2_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_ws/build/turtlebot3_cartographer
+[0.558s] -- Install configuration: ""
+[0.559s] -- Execute custom install script
+[0.560s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[0.565s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[0.566s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[0.567s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[0.567s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[0.569s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[0.574s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[0.574s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[0.574s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[0.575s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[0.579s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[0.579s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[0.579s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[0.579s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[0.583s] -- Symlinking: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[0.585s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[0.586s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[0.586s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[0.586s] -- Up-to-date symlink: /home/martin/ros2_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[0.612s] Invoked command in '/home/martin/ros2_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/martin/ros2_ws/install/turtlebot3_teleop:/home/martin/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/martin/ros2_ws/build/turtlebot3_cartographer

@@ -1,0 +1,4 @@
+source;share/scan_sub_pub/local_setup.bash
+source;share/scan_sub_pub/local_setup.dsv
+source;share/scan_sub_pub/local_setup.sh
+source;share/scan_sub_pub/local_setup.zsh
