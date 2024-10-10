@@ -1,4 +1,4 @@
-![Project Pegasus](assets/qaudVis.png)
+![Project Pegasus](assets/quadVis.png)
 
 # Project Pegasus: A Search and Rescue/Firefighting Robotic System
 
