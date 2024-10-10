@@ -1,0 +1,220 @@
+\hypertarget{classCylinderDetectionNode}{}\doxysection{Cylinder\+Detection\+Node Class Reference}
+\label{classCylinderDetectionNode}\index{CylinderDetectionNode@{CylinderDetectionNode}}
+
+
+Node for detecting cylinders using laser scan data and displaying on an Open\+CV window.  
+
+
+
+
+Inheritance diagram for Cylinder\+Detection\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classCylinderDetectionNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Cylinder\+Detection\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=210pt]{classCylinderDetectionNode__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCylinderDetectionNode_ad4b88978e65b6f046f510a1318ceec63}{Cylinder\+Detection\+Node}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{classCylinderDetectionNode}{Cylinder\+Detection\+Node}}. Initializes all components, loads the map, spawns the cylinder, and starts laser scan subscription. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classCylinderDetectionNode_a30a4c91e891b596ac7ed7ad356f49abd}{laser\+\_\+callback}} (const sensor\+\_\+msgs\+::msg\+::\+Laser\+Scan\+::\+Shared\+Ptr msg)
+\begin{DoxyCompactList}\small\item\em Callback function for processing laser scan data. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classCylinderDetectionNode_a5381d54b4001da3fad1d41003711015d}{is\+\_\+clear\+\_\+around}} (int pixel\+\_\+x, int pixel\+\_\+y)
+\begin{DoxyCompactList}\small\item\em Checks if a point is clear from obstacles within a radius of 0.\+5 meters. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCylinderDetectionNode_a03f532ae7dd1f2a43c087960164528ab}{draw\+\_\+cylinder\+\_\+marker}} (int pixel\+\_\+x, int pixel\+\_\+y)
+\begin{DoxyCompactList}\small\item\em Draws a marker to indicate the detected cylinder on both laser scan and ground truth maps. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCylinderDetectionNode_abdd64f23a77e77d0c6991fbde0f11f7d}{spawn\+\_\+cylinder}} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Spawns a cylinder at the specified coordinates in the Gazebo simulation environment. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classCylinderDetectionNode_ac7cc73f26756c521fdc5c268b6634eb0}{ground\+\_\+truth\+\_\+map\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classCylinderDetectionNode_ab492e8ec99755a912265b114be11579b}{ground\+\_\+truth\+\_\+map\+\_\+cropped\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classCylinderDetectionNode_a154317676780c565162d9ed5a6b78ea2}{binary\+\_\+map\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classCylinderDetectionNode_a5f1a9073d77137f79e06c3ec8a4e9e06}{laser\+\_\+scan\+\_\+map\+\_\+}}
+\item 
+rclcpp\+::\+Subscription$<$ sensor\+\_\+msgs\+::msg\+::\+Laser\+Scan $>$\+::Shared\+Ptr \mbox{\hyperlink{classCylinderDetectionNode_a8baa68d9110dcb199b47a92b1eabc9cc}{laser\+\_\+sub\+\_\+}}
+\item 
+std\+::optional$<$ std\+::pair$<$ int, int $>$ $>$ \mbox{\hyperlink{classCylinderDetectionNode_a0d014486c9a141f5464725d0faf4d180}{detected\+\_\+cylinder\+\_\+}}
+\item 
+std\+::shared\+\_\+ptr$<$ tf2\+\_\+ros\+::\+Buffer $>$ \mbox{\hyperlink{classCylinderDetectionNode_a17a81b8a414cdd85a05115c2a4507d53}{tf\+\_\+buffer\+\_\+}}
+\item 
+std\+::shared\+\_\+ptr$<$ tf2\+\_\+ros\+::\+Transform\+Listener $>$ \mbox{\hyperlink{classCylinderDetectionNode_a614201e697a3f51b8479baded3d3d61e}{tf\+\_\+listener\+\_\+}}
+\item 
+double \mbox{\hyperlink{classCylinderDetectionNode_a78f6902310063a8789d50d44966f532d}{map\+\_\+resolution\+\_\+}}
+\item 
+std\+::pair$<$ double, double $>$ \mbox{\hyperlink{classCylinderDetectionNode_adc00e8e7c31f1190a9a95bf470386b19}{map\+\_\+origin\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Node for detecting cylinders using laser scan data and displaying on an Open\+CV window. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCylinderDetectionNode_ad4b88978e65b6f046f510a1318ceec63}\label{classCylinderDetectionNode_ad4b88978e65b6f046f510a1318ceec63}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!CylinderDetectionNode@{CylinderDetectionNode}}
+\index{CylinderDetectionNode@{CylinderDetectionNode}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{CylinderDetectionNode()}{CylinderDetectionNode()}}
+{\footnotesize\ttfamily Cylinder\+Detection\+Node\+::\+Cylinder\+Detection\+Node (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for \mbox{\hyperlink{classCylinderDetectionNode}{Cylinder\+Detection\+Node}}. Initializes all components, loads the map, spawns the cylinder, and starts laser scan subscription. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classCylinderDetectionNode_a03f532ae7dd1f2a43c087960164528ab}\label{classCylinderDetectionNode_a03f532ae7dd1f2a43c087960164528ab}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!draw\_cylinder\_marker@{draw\_cylinder\_marker}}
+\index{draw\_cylinder\_marker@{draw\_cylinder\_marker}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{draw\_cylinder\_marker()}{draw\_cylinder\_marker()}}
+{\footnotesize\ttfamily void Cylinder\+Detection\+Node\+::draw\+\_\+cylinder\+\_\+marker (\begin{DoxyParamCaption}\item[{int}]{pixel\+\_\+x,  }\item[{int}]{pixel\+\_\+y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Draws a marker to indicate the detected cylinder on both laser scan and ground truth maps. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pixel\+\_\+x} & X coordinate of the detected cylinder in pixels. \\
+\hline
+{\em pixel\+\_\+y} & Y coordinate of the detected cylinder in pixels. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCylinderDetectionNode_a5381d54b4001da3fad1d41003711015d}\label{classCylinderDetectionNode_a5381d54b4001da3fad1d41003711015d}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!is\_clear\_around@{is\_clear\_around}}
+\index{is\_clear\_around@{is\_clear\_around}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{is\_clear\_around()}{is\_clear\_around()}}
+{\footnotesize\ttfamily bool Cylinder\+Detection\+Node\+::is\+\_\+clear\+\_\+around (\begin{DoxyParamCaption}\item[{int}]{pixel\+\_\+x,  }\item[{int}]{pixel\+\_\+y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Checks if a point is clear from obstacles within a radius of 0.\+5 meters. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pixel\+\_\+x} & X coordinate of the point in pixels. \\
+\hline
+{\em pixel\+\_\+y} & Y coordinate of the point in pixels. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the area around the point is clear, false otherwise. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classCylinderDetectionNode_a30a4c91e891b596ac7ed7ad356f49abd}\label{classCylinderDetectionNode_a30a4c91e891b596ac7ed7ad356f49abd}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!laser\_callback@{laser\_callback}}
+\index{laser\_callback@{laser\_callback}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{laser\_callback()}{laser\_callback()}}
+{\footnotesize\ttfamily void Cylinder\+Detection\+Node\+::laser\+\_\+callback (\begin{DoxyParamCaption}\item[{const sensor\+\_\+msgs\+::msg\+::\+Laser\+Scan\+::\+Shared\+Ptr}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Callback function for processing laser scan data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Shared pointer to the Laser\+Scan message. \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classCylinderDetectionNode_abdd64f23a77e77d0c6991fbde0f11f7d}\label{classCylinderDetectionNode_abdd64f23a77e77d0c6991fbde0f11f7d}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!spawn\_cylinder@{spawn\_cylinder}}
+\index{spawn\_cylinder@{spawn\_cylinder}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{spawn\_cylinder()}{spawn\_cylinder()}}
+{\footnotesize\ttfamily void Cylinder\+Detection\+Node\+::spawn\+\_\+cylinder (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Spawns a cylinder at the specified coordinates in the Gazebo simulation environment. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate of the cylinder in meters. \\
+\hline
+{\em y} & Y coordinate of the cylinder in meters. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classCylinderDetectionNode_a154317676780c565162d9ed5a6b78ea2}\label{classCylinderDetectionNode_a154317676780c565162d9ed5a6b78ea2}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!binary\_map\_@{binary\_map\_}}
+\index{binary\_map\_@{binary\_map\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{binary\_map\_}{binary\_map\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Cylinder\+Detection\+Node\+::binary\+\_\+map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCylinderDetectionNode_a0d014486c9a141f5464725d0faf4d180}\label{classCylinderDetectionNode_a0d014486c9a141f5464725d0faf4d180}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!detected\_cylinder\_@{detected\_cylinder\_}}
+\index{detected\_cylinder\_@{detected\_cylinder\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{detected\_cylinder\_}{detected\_cylinder\_}}
+{\footnotesize\ttfamily std\+::optional$<$std\+::pair$<$int, int$>$ $>$ Cylinder\+Detection\+Node\+::detected\+\_\+cylinder\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Coordinates of detected cylinder (if any) \mbox{\Hypertarget{classCylinderDetectionNode_ac7cc73f26756c521fdc5c268b6634eb0}\label{classCylinderDetectionNode_ac7cc73f26756c521fdc5c268b6634eb0}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!ground\_truth\_map\_@{ground\_truth\_map\_}}
+\index{ground\_truth\_map\_@{ground\_truth\_map\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{ground\_truth\_map\_}{ground\_truth\_map\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Cylinder\+Detection\+Node\+::ground\+\_\+truth\+\_\+map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCylinderDetectionNode_ab492e8ec99755a912265b114be11579b}\label{classCylinderDetectionNode_ab492e8ec99755a912265b114be11579b}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!ground\_truth\_map\_cropped\_@{ground\_truth\_map\_cropped\_}}
+\index{ground\_truth\_map\_cropped\_@{ground\_truth\_map\_cropped\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{ground\_truth\_map\_cropped\_}{ground\_truth\_map\_cropped\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Cylinder\+Detection\+Node\+::ground\+\_\+truth\+\_\+map\+\_\+cropped\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classCylinderDetectionNode_a5f1a9073d77137f79e06c3ec8a4e9e06}\label{classCylinderDetectionNode_a5f1a9073d77137f79e06c3ec8a4e9e06}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!laser\_scan\_map\_@{laser\_scan\_map\_}}
+\index{laser\_scan\_map\_@{laser\_scan\_map\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{laser\_scan\_map\_}{laser\_scan\_map\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Cylinder\+Detection\+Node\+::laser\+\_\+scan\+\_\+map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Open\+CV matrices for the maps \mbox{\Hypertarget{classCylinderDetectionNode_a8baa68d9110dcb199b47a92b1eabc9cc}\label{classCylinderDetectionNode_a8baa68d9110dcb199b47a92b1eabc9cc}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!laser\_sub\_@{laser\_sub\_}}
+\index{laser\_sub\_@{laser\_sub\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{laser\_sub\_}{laser\_sub\_}}
+{\footnotesize\ttfamily rclcpp\+::\+Subscription$<$sensor\+\_\+msgs\+::msg\+::\+Laser\+Scan$>$\+::Shared\+Ptr Cylinder\+Detection\+Node\+::laser\+\_\+sub\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Subscription to laser scan data \mbox{\Hypertarget{classCylinderDetectionNode_adc00e8e7c31f1190a9a95bf470386b19}\label{classCylinderDetectionNode_adc00e8e7c31f1190a9a95bf470386b19}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!map\_origin\_@{map\_origin\_}}
+\index{map\_origin\_@{map\_origin\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{map\_origin\_}{map\_origin\_}}
+{\footnotesize\ttfamily std\+::pair$<$double, double$>$ Cylinder\+Detection\+Node\+::map\+\_\+origin\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Origin of the map in meters (bottom-\/left corner) \mbox{\Hypertarget{classCylinderDetectionNode_a78f6902310063a8789d50d44966f532d}\label{classCylinderDetectionNode_a78f6902310063a8789d50d44966f532d}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!map\_resolution\_@{map\_resolution\_}}
+\index{map\_resolution\_@{map\_resolution\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{map\_resolution\_}{map\_resolution\_}}
+{\footnotesize\ttfamily double Cylinder\+Detection\+Node\+::map\+\_\+resolution\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Resolution of the map in meters/pixel \mbox{\Hypertarget{classCylinderDetectionNode_a17a81b8a414cdd85a05115c2a4507d53}\label{classCylinderDetectionNode_a17a81b8a414cdd85a05115c2a4507d53}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!tf\_buffer\_@{tf\_buffer\_}}
+\index{tf\_buffer\_@{tf\_buffer\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{tf\_buffer\_}{tf\_buffer\_}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$tf2\+\_\+ros\+::\+Buffer$>$ Cylinder\+Detection\+Node\+::tf\+\_\+buffer\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Buffer for storing transforms \mbox{\Hypertarget{classCylinderDetectionNode_a614201e697a3f51b8479baded3d3d61e}\label{classCylinderDetectionNode_a614201e697a3f51b8479baded3d3d61e}} 
+\index{CylinderDetectionNode@{CylinderDetectionNode}!tf\_listener\_@{tf\_listener\_}}
+\index{tf\_listener\_@{tf\_listener\_}!CylinderDetectionNode@{CylinderDetectionNode}}
+\doxysubsubsection{\texorpdfstring{tf\_listener\_}{tf\_listener\_}}
+{\footnotesize\ttfamily std\+::shared\+\_\+ptr$<$tf2\+\_\+ros\+::\+Transform\+Listener$>$ Cylinder\+Detection\+Node\+::tf\+\_\+listener\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Listener for transform data 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{sprint3part2_8cpp}{sprint3part2.\+cpp}}\end{DoxyCompactItemize}

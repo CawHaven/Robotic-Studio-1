@@ -1,0 +1,28 @@
+\hypertarget{classMapProcessorNode}{}\doxysection{Map\+Processor\+Node Class Reference}
+\label{classMapProcessorNode}\index{MapProcessorNode@{MapProcessorNode}}
+
+
+Inheritance diagram for Map\+Processor\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classMapProcessorNode__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Map\+Processor\+Node\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=190pt]{classMapProcessorNode__coll__graph}
+\end{center}
+\end{figure}
+
+
+\doxysubsection{Detailed Description}
+Localisation System Idea Write a subscriber node to receive laser scans Convert incoming laser scans to images and display them using cv\+::imshow Keep 2 instances of laser scans and convert them to images ?????? Estimate the relative rotation angle between 2 laser scans ?????? SLO 3.\+5 Use ROS2 nav2\+\_\+amcl package to localise the robot SLO 3.\+6 Set the initial robot pose to a known location of the map Extract section of the map around the robot (let\textquotesingle{}s call this Image A) Extract edges from Image A using opencv and create and edge image (let\textquotesingle{}s call this Image B) Receive a laser scan and convert it to an image (let\textquotesingle{}s call this Image C) Similar to WK5 lab activity use Image B and Image C to estimate the rotation of robot relative to the map Using odometry, propagate the robot to the new location SLO 3.\+7 Compare the localisation accuracies against the ground truth 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+test.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,10 @@
+export TURTLEBOT3_MODEL=waffle_pi
+ros2 launch turtlebot3_gazebo turtlebot3_world.launch.py use_sim_time:=True
+
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=True
+
+ros2 run rviz2 rviz2 -d /opt/ros/humble/share/nav2_bringup/rviz/nav2_default_view.rviz use_sim_time:=True
+
+ros2 run turtlebot3_teleop teleop_keyboard
+
+ros2 run robotics_studio_1 sprint2

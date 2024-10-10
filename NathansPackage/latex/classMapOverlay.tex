@@ -1,0 +1,114 @@
+\hypertarget{classMapOverlay}{}\doxysection{Map\+Overlay Class Reference}
+\label{classMapOverlay}\index{MapOverlay@{MapOverlay}}
+
+
+Node that overlays SLAM map data on top of a ground truth map using Open\+CV for visualization.  
+
+
+
+
+Inheritance diagram for Map\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classMapOverlay__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Map\+Overlay\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=157pt]{classMapOverlay__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMapOverlay_a9b805ba848014829bc464c6e7cfd2a93}{Map\+Overlay}} ()
+\begin{DoxyCompactList}\small\item\em Constructor for \mbox{\hyperlink{classMapOverlay}{Map\+Overlay}}. Loads the ground truth map, processes it, and subscribes to the SLAM map topic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{classMapOverlay_a269e82a39acc06b439096d63e0aa02e1}{map\+\_\+callback}} (const nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid\+::\+Shared\+Ptr msg)
+\begin{DoxyCompactList}\small\item\em Callback function for processing the SLAM map data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+rclcpp\+::\+Subscription$<$ nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid $>$\+::Shared\+Ptr \mbox{\hyperlink{classMapOverlay_aa437f3bf885289ce16a245245b68e4d9}{map\+\_\+sub\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classMapOverlay_ad23004ce032786d8543c7d09e2be8ff6}{ground\+\_\+truth\+\_\+map\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classMapOverlay_a86e906e4dd09d361faea2b6ecedb74cb}{ground\+\_\+truth\+\_\+map\+\_\+cropped\+\_\+}}
+\item 
+cv\+::\+Mat \mbox{\hyperlink{classMapOverlay_a3e32850169f29e73e51217f7128801ba}{binary\+\_\+map\+\_\+}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Node that overlays SLAM map data on top of a ground truth map using Open\+CV for visualization. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMapOverlay_a9b805ba848014829bc464c6e7cfd2a93}\label{classMapOverlay_a9b805ba848014829bc464c6e7cfd2a93}} 
+\index{MapOverlay@{MapOverlay}!MapOverlay@{MapOverlay}}
+\index{MapOverlay@{MapOverlay}!MapOverlay@{MapOverlay}}
+\doxysubsubsection{\texorpdfstring{MapOverlay()}{MapOverlay()}}
+{\footnotesize\ttfamily Map\+Overlay\+::\+Map\+Overlay (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Constructor for \mbox{\hyperlink{classMapOverlay}{Map\+Overlay}}. Loads the ground truth map, processes it, and subscribes to the SLAM map topic. 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classMapOverlay_a269e82a39acc06b439096d63e0aa02e1}\label{classMapOverlay_a269e82a39acc06b439096d63e0aa02e1}} 
+\index{MapOverlay@{MapOverlay}!map\_callback@{map\_callback}}
+\index{map\_callback@{map\_callback}!MapOverlay@{MapOverlay}}
+\doxysubsubsection{\texorpdfstring{map\_callback()}{map\_callback()}}
+{\footnotesize\ttfamily void Map\+Overlay\+::map\+\_\+callback (\begin{DoxyParamCaption}\item[{const nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid\+::\+Shared\+Ptr}]{msg }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [private]}}
+
+
+
+Callback function for processing the SLAM map data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em msg} & Shared pointer to the Occupancy\+Grid message. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classMapOverlay_a3e32850169f29e73e51217f7128801ba}\label{classMapOverlay_a3e32850169f29e73e51217f7128801ba}} 
+\index{MapOverlay@{MapOverlay}!binary\_map\_@{binary\_map\_}}
+\index{binary\_map\_@{binary\_map\_}!MapOverlay@{MapOverlay}}
+\doxysubsubsection{\texorpdfstring{binary\_map\_}{binary\_map\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Map\+Overlay\+::binary\+\_\+map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Open\+CV matrices for the maps \mbox{\Hypertarget{classMapOverlay_ad23004ce032786d8543c7d09e2be8ff6}\label{classMapOverlay_ad23004ce032786d8543c7d09e2be8ff6}} 
+\index{MapOverlay@{MapOverlay}!ground\_truth\_map\_@{ground\_truth\_map\_}}
+\index{ground\_truth\_map\_@{ground\_truth\_map\_}!MapOverlay@{MapOverlay}}
+\doxysubsubsection{\texorpdfstring{ground\_truth\_map\_}{ground\_truth\_map\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Map\+Overlay\+::ground\+\_\+truth\+\_\+map\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlay_a86e906e4dd09d361faea2b6ecedb74cb}\label{classMapOverlay_a86e906e4dd09d361faea2b6ecedb74cb}} 
+\index{MapOverlay@{MapOverlay}!ground\_truth\_map\_cropped\_@{ground\_truth\_map\_cropped\_}}
+\index{ground\_truth\_map\_cropped\_@{ground\_truth\_map\_cropped\_}!MapOverlay@{MapOverlay}}
+\doxysubsubsection{\texorpdfstring{ground\_truth\_map\_cropped\_}{ground\_truth\_map\_cropped\_}}
+{\footnotesize\ttfamily cv\+::\+Mat Map\+Overlay\+::ground\+\_\+truth\+\_\+map\+\_\+cropped\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+\mbox{\Hypertarget{classMapOverlay_aa437f3bf885289ce16a245245b68e4d9}\label{classMapOverlay_aa437f3bf885289ce16a245245b68e4d9}} 
+\index{MapOverlay@{MapOverlay}!map\_sub\_@{map\_sub\_}}
+\index{map\_sub\_@{map\_sub\_}!MapOverlay@{MapOverlay}}
+\doxysubsubsection{\texorpdfstring{map\_sub\_}{map\_sub\_}}
+{\footnotesize\ttfamily rclcpp\+::\+Subscription$<$nav\+\_\+msgs\+::msg\+::\+Occupancy\+Grid$>$\+::Shared\+Ptr Map\+Overlay\+::map\+\_\+sub\+\_\+\hspace{0.3cm}{\ttfamily [private]}}
+
+Subscription to SLAM map topic 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+src/\mbox{\hyperlink{sprint3_8cpp}{sprint3.\+cpp}}\end{DoxyCompactItemize}
