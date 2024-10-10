@@ -1,0 +1,33 @@
+cmake_minimum_required(VERSION 3.5)
+project(cylinder_detector_spawner)
+
+# Find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros REQUIRED)
+find_package(tf2_geometry_msgs REQUIRED)
+find_package(gazebo_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
+
+# Create executable for CylinderDetector
+add_executable(cylinder_detector src/cylinder_detector.cpp)
+ament_target_dependencies(cylinder_detector rclcpp sensor_msgs visualization_msgs geometry_msgs tf2_ros tf2_geometry_msgs)
+
+# Create executable for CylinderSpawner
+add_executable(cylinder_spawner src/cylinder_spawner.cpp)
+ament_target_dependencies(cylinder_spawner rclcpp geometry_msgs std_msgs gazebo_msgs)
+
+# Install targets
+install(TARGETS
+  cylinder_detector
+  cylinder_spawner
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install launch files or other scripts if you have any
+# install(DIRECTORY launch DESTINATION share/${PROJECT_NAME})
+
+ament_package()
